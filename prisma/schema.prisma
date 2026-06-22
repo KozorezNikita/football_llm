@@ -1,0 +1,278 @@
+// schema.prisma — Football LLM (джерело: FotMob)
+// Ієрархія: League → Team → Player → PlayerSeasonStats
+// Усі ID — внутрішні id FotMob (стабільні, як первинні ключі).
+// Метрики зберігаються трійками: value / per90 / percentile (percentileRank з FotMob).
+// Ключ статистики мульти-турнірний: (playerId, tournamentId, seasonName) — наперед під АПЛ/єврокубки.
+
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "postgresql"
+  url      = env("DATABASE_URL")
+}
+
+// ─────────────────────────────────────────────────────────────
+// League — чемпіонат (Ligue 1 = 53, Premier League = 47 у FotMob).
+// Для загального блоку на фронті.
+// ─────────────────────────────────────────────────────────────
+model League {
+  id        Int    @id // FotMob leagueId
+  name      String
+  country   String?
+  logo      String?
+  season    String? // напр. "2025/2026"
+
+  teams Team[]
+
+  createdAt DateTime @default(now())
+  updatedAt DateTime @updatedAt
+}
+
+// ─────────────────────────────────────────────────────────────
+// Team — команда (Lyon = 9748). primaryLeague — головна ліга.
+// ─────────────────────────────────────────────────────────────
+model Team {
+  id       Int    @id // FotMob teamId
+  name     String
+  country  String?
+  logo     String?
+
+  // турнірна таблиця (з league table) — для фронту
+  position Int?
+  played   Int?
+  wins     Int?
+  draws    Int?
+  losses   Int?
+  points   Int?
+  goalDiff Int?
+
+  league   League? @relation(fields: [leagueId], references: [id])
+  leagueId Int?
+
+  scoutReport     String?
+  scoutReportAt   DateTime?
+  scoutReportHash String?
+
+  players     Player[]
+  seasonStats PlayerSeasonStats[]
+
+  createdAt DateTime @default(now())
+  updatedAt DateTime @updatedAt
+}
+
+// ─────────────────────────────────────────────────────────────
+// Player — гравець. Детальні позиції з FotMob (positionIdsDesc → "LB,CB").
+// primaryPosition — основна (Attacking Midfielder), otherPositions — решта.
+// ─────────────────────────────────────────────────────────────
+model Player {
+  id        Int    @id // FotMob playerId
+  name      String
+  birthDate DateTime?
+  age       Int?
+  country   String?
+  height    Int? // см
+  preferredFoot String?
+  shirtNumber   Int?
+  photo     String?
+
+  primaryPosition String? // напр. "Attacking Midfielder"
+  otherPositions  String? // CSV: "Defensive Midfielder,Central Midfielder"
+  detailedPositions String? // raw positionIdsDesc, напр. "AM,CM,DM"
+
+  marketValue Int? // трансферна вартість (€)
+
+  team   Team? @relation(fields: [teamId], references: [id])
+  teamId Int?
+
+  seasonStats PlayerSeasonStats[]
+
+  createdAt DateTime @default(now())
+  updatedAt DateTime @updatedAt
+}
+
+// ─────────────────────────────────────────────────────────────
+// PlayerSeasonStats — статистика гравця за сезон+турнір.
+// Мульти-турнірний унікальний ключ → один гравець може мати кілька рядків
+// (Ligue 1, Coupe de France, Europa League...).
+// Кожна метрика: value (raw) + per90 + pct (percentileRank з FotMob).
+// Усі nullable — FotMob не завжди має всі метрики для всіх гравців.
+// ─────────────────────────────────────────────────────────────
+model PlayerSeasonStats {
+  id Int @id @default(autoincrement())
+
+  player   Player @relation(fields: [playerId], references: [id])
+  playerId Int
+  team     Team   @relation(fields: [teamId], references: [id])
+  teamId   Int
+
+  tournamentId   Int    // FotMob tournamentId (53 = Ligue 1)
+  tournamentName String // "Ligue 1"
+  seasonName     String // "2025/2026"
+
+  // ── Загальне ──
+  minutes   Int?
+  matches   Int?
+  started   Int?
+  rating    Float?
+
+  // ── SHOOTING ──
+  goals         Int?    @map("goals_v")
+  goalsPer90    Float?
+  goalsPct      Float?
+  xg            Float?
+  xgPer90       Float?
+  xgPct         Float?
+  xgot          Float?  // xG on target
+  xgotPer90     Float?
+  xgotPct       Float?
+  penaltyGoals      Int?
+  penaltyGoalsPer90 Float?
+  penaltyGoalsPct   Float?
+  npxg          Float?  // non-penalty xG
+  npxgPer90     Float?
+  npxgPct       Float?
+  shots         Int?
+  shotsPer90    Float?
+  shotsPct      Float?
+  shotsOnTarget      Int?
+  shotsOnTargetPer90 Float?
+  shotsOnTargetPct   Float?
+  headedShots       Int?
+  headedShotsPer90  Float?
+  headedShotsPct    Float?
+
+  // ── PASSING ──
+  assists       Int?
+  assistsPer90  Float?
+  assistsPct    Float?
+  xa            Float?  // expected assists
+  xaPer90       Float?
+  xaPct         Float?
+  successfulPasses      Int?
+  successfulPassesPer90 Float?
+  successfulPassesPct   Float?
+  passAccuracy      Float? // %
+  passAccuracyPct   Float?
+  accurateLongBalls      Int?
+  accurateLongBallsPer90 Float?
+  accurateLongBallsPct   Float?
+  longBallAccuracy       Float? // %
+  longBallAccuracyPct    Float?
+  chancesCreated      Int?
+  chancesCreatedPer90 Float?
+  chancesCreatedPct   Float?
+  bigChancesCreated      Int?
+  bigChancesCreatedPer90 Float?
+  bigChancesCreatedPct   Float?
+  successfulCrosses      Int?
+  successfulCrossesPer90 Float?
+  successfulCrossesPct   Float?
+  crossAccuracy       Float? // %
+  crossAccuracyPct    Float?
+
+  // ── POSSESSION ──
+  successfulDribbles      Int?
+  successfulDribblesPer90 Float?
+  successfulDribblesPct   Float?
+  dribbleSuccessRate      Float? // %
+  dribbleSuccessRatePct   Float?
+  duelsWon          Int?
+  duelsWonPer90     Float?
+  duelsWonPct       Float?
+  duelsWonPctValue  Float? // %
+  duelsWonPctValuePct Float?
+  aerialDuelsWon       Int?
+  aerialDuelsWonPer90  Float?
+  aerialDuelsWonPct    Float?
+  aerialDuelsWonPctValue Float? // %
+  aerialDuelsWonPctValuePct Float?
+  touches       Int?
+  touchesPer90  Float?
+  touchesPct    Float?
+  touchesOppBox      Int?
+  touchesOppBoxPer90 Float?
+  touchesOppBoxPct   Float?
+  dispossessed      Int?
+  dispossessedPer90 Float?
+  dispossessedPct   Float?
+  foulsWon       Int?
+  foulsWonPer90  Float?
+  foulsWonPct    Float?
+  penaltiesAwarded Int?
+
+  // ── DEFENDING ──
+  defensiveContributions      Int?
+  defensiveContributionsPer90 Float?
+  defensiveContributionsPct   Float?
+  tackles       Int?
+  tacklesPer90  Float?
+  tacklesPct    Float?
+  interceptions      Int?
+  interceptionsPer90 Float?
+  interceptionsPct   Float?
+  blockedShots      Int?
+  blockedShotsPer90 Float?
+  blockedShotsPct   Float?
+  foulsCommitted      Int?
+  foulsCommittedPer90 Float?
+  foulsCommittedPct   Float?
+  penaltiesConceded Int?
+  recoveries      Int?
+  recoveriesPer90 Float?
+  recoveriesPct   Float?
+  possessionWonFinalThird      Int?
+  possessionWonFinalThirdPer90 Float?
+  possessionWonFinalThirdPct   Float?
+  dribbledPast      Int?
+  dribbledPastPer90 Float?
+  dribbledPastPct   Float?
+  clearances      Int?
+  clearancesPer90 Float?
+  clearancesPct   Float?
+  cleanSheets      Int?
+  cleanSheetsPct   Float?
+  goalsConcededOnPitch Int?
+  xgConcededOnPitch    Float?
+
+  // ── GOALKEEPING ──
+  saves         Int?
+  savesPer90    Float?
+  savesPct      Float?
+  savePercentage    Float?
+  savePercentagePct Float?
+  goalsConceded      Int?
+  goalsConcededPer90 Float?
+  goalsConcededPct   Float?
+  goalsPrevented     Float?
+  goalsPreventedPct  Float?
+  penaltySaves       Int?
+  cleanSheetsGk      Int?
+  cleanSheetsGkPct   Float?
+  // розширені воротарські метрики
+  keeperSweeper          Int?
+  keeperSweeperPer90     Float?
+  keeperSweeperPct       Float?
+  keeperHighClaim        Int?
+  keeperHighClaimPer90   Float?
+  keeperHighClaimPct     Float?
+  errorLedToGoal         Int?
+  errorLedToGoalPer90    Float?
+  errorLedToGoalPct      Float?
+  penaltyGoalsConceded   Int?
+  penaltySavePercentage      Float?
+  penaltySavePercentagePct   Float?
+
+  // ── DISCIPLINE ──
+  yellowCards Int?
+  redCards    Int?
+
+  // ── xG-родина closing: усе вже вище (xg, npxg, xa, xgot) ──
+
+  createdAt DateTime @default(now())
+  updatedAt DateTime @updatedAt
+
+  @@unique([playerId, tournamentId, seasonName])
+  @@index([teamId, tournamentId, seasonName])
+}

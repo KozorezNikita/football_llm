@@ -1,0 +1,217 @@
+{
+  "sectionOrder": [
+    "top-stat-card",
+    "shotmap",
+    "stats-section"
+  ],
+  "statsSection": {
+    "id": "stats-section",
+    "items": [
+      {
+        "display": "stats-group",
+        "items": [
+          {
+            "localizedTitleId": "saves",
+            "per90": 2,
+            "percentileRank": 15,
+            "percentileRankPer90": 5,
+            "statFormat": "number",
+            "statValue": "6",
+            "title": "Saves"
+          },
+          {
+            "localizedTitleId": "save_percentage",
+            "per90": 66.66666666666667,
+            "percentileRank": 35,
+            "percentileRankPer90": 35,
+            "statFormat": "percent",
+            "statValue": "66.7",
+            "title": "Save percentage"
+          },
+          {
+            "localizedTitleId": "goals_conceded",
+            "per90": 1,
+            "percentileRank": 60,
+            "percentileRankPer90": 65,
+            "statFormat": "number",
+            "statValue": "3",
+            "title": "Goals conceded"
+          },
+          {
+            "localizedTitleId": "clean_sheet_team_title",
+            "per90": 0,
+            "percentileRank": 0,
+            "percentileRankPer90": 0,
+            "statFormat": "number",
+            "statValue": "0",
+            "title": "Clean sheets"
+          },
+          {
+            "localizedTitleId": "error_led_to_goal",
+            "per90": 0,
+            "percentileRank": 100,
+            "percentileRankPer90": 100,
+            "statFormat": "number",
+            "statValue": "0",
+            "title": "Error led to goal"
+          },
+          {
+            "localizedTitleId": "keeper_sweeper",
+            "per90": 1,
+            "percentileRank": 80,
+            "percentileRankPer90": 80,
+            "statFormat": "number",
+            "statValue": "3",
+            "title": "Acted as sweeper"
+          },
+          {
+            "localizedTitleId": "keeper_high_claim",
+            "per90": 0.33333333333333337,
+            "percentileRank": 30,
+            "percentileRankPer90": 35,
+            "statFormat": "number",
+            "statValue": "1",
+            "title": "High claims"
+          }
+        ],
+        "localizedTitleId": "goalkeeping",
+        "title": "Goalkeeping",
+        "type": "stat-values"
+      },
+      {
+        "display": "stats-group",
+        "items": [
+          {
+            "localizedTitleId": "successful_passes",
+            "per90": 25.999999999999996,
+            "percentileRank": 65,
+            "percentileRankPer90": 85,
+            "statFormat": "number",
+            "statValue": "78",
+            "title": "Accurate passes"
+          },
+          {
+            "localizedTitleId": "successful_passes_accuracy",
+            "per90": 73.58490566037736,
+            "percentileRank": 30,
+            "percentileRankPer90": 30,
+            "statFormat": "percent",
+            "statValue": "73.6",
+            "title": "Pass accuracy"
+          },
+          {
+            "localizedTitleId": "long_balls_accurate",
+            "per90": 5.666666666666666,
+            "percentileRank": 55.00000000000001,
+            "percentileRankPer90": 65,
+            "statFormat": "number",
+            "statValue": "17",
+            "title": "Accurate long balls"
+          },
+          {
+            "localizedTitleId": "long_ball_succeeeded_accuracy",
+            "per90": 38.63636363636363,
+            "percentileRank": 35,
+            "percentileRankPer90": 35,
+            "statFormat": "percent",
+            "statValue": "38.6",
+            "title": "Long ball accuracy"
+          }
+        ],
+        "localizedTitleId": "distribution",
+        "title": "Distribution",
+        "type": "stat-values"
+      },
+      {
+        "display": "stats-group",
+        "items": [
+          {
+            "localizedTitleId": "yellow_cards",
+            "per90": 0,
+            "percentileRank": 100,
+            "percentileRankPer90": 100,
+            "statFormat": "number",
+            "statValue": "0",
+            "title": "Yellow cards"
+          },
+          {
+            "localizedTitleId": "red_cards",
+            "per90": 0,
+            "percentileRank": 0,
+            "percentileRankPer90": 0,
+            "statFormat": "number",
+            "statValue": "0",
+            "title": "Red cards"
+          }
+        ],
+        "localizedTitleId": "discipline",
+        "title": "Discipline",
+        "type": "stat-values"
+      }
+    ],
+    "localizedTitleId": "season_performance",
+    "title": "Season performance",
+    "type": "grouped-stat-values"
+  },
+  "topStatCard": {
+    "display": "stats-group",
+    "id": "top-stat-card",
+    "items": [
+      {
+        "localizedTitleId": "goals_conceded",
+        "per90": 1,
+        "percentileRank": 60,
+        "percentileRankPer90": 65,
+        "statFormat": "number",
+        "statValue": "3",
+        "title": "Conceded"
+      },
+      {
+        "localizedTitleId": "clean_sheet_title",
+        "per90": 0,
+        "percentileRank": 0,
+        "percentileRankPer90": 0,
+        "statFormat": "number",
+        "statValue": "0",
+        "title": "Clean sheets"
+      },
+      {
+        "localizedTitleId": "rating",
+        "per90": 7.056666666666667,
+        "percentileRank": 75,
+        "percentileRankPer90": 75,
+        "statFormat": "fraction",
+        "statValue": "7.06",
+        "title": "Rating"
+      },
+      {
+        "localizedTitleId": "matches_uppercase",
+        "per90": 3,
+        "percentileRank": 30,
+        "percentileRankPer90": 30,
+        "statFormat": "number",
+        "statValue": "3",
+        "title": "Matches"
+      },
+      {
+        "localizedTitleId": "player_started_matches",
+        "per90": 3,
+        "percentileRank": 30,
+        "percentileRankPer90": 20,
+        "statFormat": "number",
+        "statValue": "3",
+        "title": "Started"
+      },
+      {
+        "localizedTitleId": "saved_penalties",
+        "per90": 0,
+        "statFormat": "unknown",
+        "statValue": "0/0",
+        "title": "Penalties saved"
+      }
+    ],
+    "type": "stat-values"
+  },
+  "shotmap": null,
+  "keeperShotmap": null
+}

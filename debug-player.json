@@ -1,0 +1,6352 @@
+{
+  "id": 643690,
+  "name": "Roman Yaremchuk",
+  "birthDate": {
+    "utcTime": "1995-11-27T00:00:00.000Z",
+    "timezone": "UTC"
+  },
+  "contractEnd": {
+    "utcTime": "2028-06-30T00:00:00.000Z",
+    "timezone": "UTC"
+  },
+  "isCoach": false,
+  "isCaptain": false,
+  "gender": "male",
+  "primaryTeam": {
+    "teamId": 9748,
+    "teamName": "Lyon",
+    "onLoan": true,
+    "teamColors": {
+      "color": "#0160A0",
+      "colorAlternate": "#ffffff",
+      "colorAway": "#c62b39",
+      "colorAwayAlternate": "#0160A0"
+    }
+  },
+  "positionDescription": {
+    "positions": [
+      {
+        "strPos": {
+          "label": "Striker",
+          "key": "striker"
+        },
+        "strPosShort": {
+          "label": "ST",
+          "key": "striker_short"
+        },
+        "occurences": 17,
+        "position": "104",
+        "isMainPosition": true,
+        "pitchPositionData": {
+          "right": 0.5,
+          "top": 0.1
+        }
+      }
+    ],
+    "primaryPosition": {
+      "label": "Striker",
+      "key": "striker"
+    },
+    "nonPrimaryPositions": []
+  },
+  "injuryInformation": null,
+  "internationalDuty": null,
+  "playerInformation": [
+    {
+      "value": {
+        "numberValue": 191,
+        "key": null,
+        "fallback": "191 cm"
+      },
+      "title": "Height",
+      "translationKey": "height_sentencecase"
+    },
+    {
+      "value": {
+        "numberValue": 77,
+        "options": {},
+        "key": null,
+        "fallback": 77
+      },
+      "title": "Shirt",
+      "translationKey": "shirt"
+    },
+    {
+      "value": {
+        "numberValue": 30,
+        "options": {
+          "style": "unit",
+          "unit": "year",
+          "unitDisplay": "long"
+        },
+        "key": null,
+        "fallback": "30"
+      },
+      "title": "Age",
+      "translationKey": "age_sentencecase"
+    },
+    {
+      "value": {
+        "key": "right",
+        "fallback": "Right"
+      },
+      "title": "Preferred foot",
+      "translationKey": "preferred_foot"
+    },
+    {
+      "value": {
+        "key": null,
+        "fallback": "Ukraine"
+      },
+      "title": "Country",
+      "translationKey": "country_sentencecase",
+      "icon": {
+        "type": "country",
+        "id": "UKR"
+      },
+      "countryCode": "UKR"
+    },
+    {
+      "value": {
+        "numberValue": 1859759,
+        "key": null,
+        "fallback": "€1.9m"
+      },
+      "title": "Market value",
+      "translationKey": "transfer_value"
+    },
+    {
+      "value": {
+        "dateValue": "2028-06-30",
+        "key": null,
+        "fallback": {
+          "utcTime": "2028-06-30T00:00:00.000Z",
+          "timezone": "UTC"
+        }
+      },
+      "title": "Contract end",
+      "translationKey": "contract_end"
+    }
+  ],
+  "mainLeague": {
+    "leagueId": 53,
+    "leagueName": "Ligue 1",
+    "season": "2025/2026",
+    "stats": [
+      {
+        "title": "Goals",
+        "localizedTitleId": "goals",
+        "value": 4
+      },
+      {
+        "title": "Assists",
+        "localizedTitleId": "assists",
+        "value": 1
+      },
+      {
+        "title": "Started",
+        "localizedTitleId": "started",
+        "value": 5
+      },
+      {
+        "title": "Matches",
+        "localizedTitleId": "matches_uppercase",
+        "value": 11
+      },
+      {
+        "title": "Minutes played",
+        "localizedTitleId": "minutes_played",
+        "value": 561
+      },
+      {
+        "title": "Rating",
+        "localizedTitleId": "rating",
+        "value": 6.81
+      },
+      {
+        "title": "Yellow cards",
+        "localizedTitleId": "yellow_cards",
+        "value": 1
+      },
+      {
+        "title": "Red cards",
+        "localizedTitleId": "red_cards",
+        "value": 0
+      }
+    ]
+  },
+  "trophies": {
+    "playerTrophies": [
+      {
+        "ccode": "GRE",
+        "teamId": 8638,
+        "teamName": "Olympiacos",
+        "tournaments": [
+          {
+            "ccode": "GRE",
+            "leagueId": 145,
+            "leagueName": "Greece Cup",
+            "seasonsWon": [
+              "2024/2025"
+            ],
+            "seasonsRunnerUp": []
+          },
+          {
+            "ccode": "GRE",
+            "leagueId": -1,
+            "leagueName": "Super Cup",
+            "seasonsWon": [
+              "2025/2026"
+            ],
+            "seasonsRunnerUp": []
+          },
+          {
+            "ccode": "GRE",
+            "leagueId": 135,
+            "leagueName": "Super League 1",
+            "seasonsWon": [
+              "2024/2025"
+            ],
+            "seasonsRunnerUp": []
+          }
+        ]
+      },
+      {
+        "ccode": "UKR",
+        "teamId": 8688,
+        "teamName": "Dynamo Kyiv",
+        "tournaments": [
+          {
+            "ccode": "UKR",
+            "leagueId": 441,
+            "leagueName": "Premier League",
+            "seasonsWon": [
+              "2015/2016"
+            ],
+            "seasonsRunnerUp": [
+              "2016/2017"
+            ]
+          }
+        ]
+      }
+    ],
+    "coachTrophies": []
+  },
+  "recentMatches": [
+    {
+      "teamId": 6718,
+      "teamName": "Ukraine",
+      "opponentTeamId": 8238,
+      "opponentTeamName": "Denmark",
+      "isHomeTeam": false,
+      "id": 5425679,
+      "matchDate": {
+        "utcTime": "2026-06-07T16:30:00.000Z"
+      },
+      "matchPageUrl": "/matches/ukraine-vs-denmark/1ulh64#5425679",
+      "leagueId": 114,
+      "leagueName": "Friendlies",
+      "stage": null,
+      "homeScore": 2,
+      "awayScore": 1,
+      "minutesPlayed": 46,
+      "goals": 0,
+      "assists": 0,
+      "yellowCards": 0,
+      "redCards": 0,
+      "ratingProps": {
+        "rating": 0,
+        "isTopRating": false
+      },
+      "playerOfTheMatch": false,
+      "onBench": false
+    },
+    {
+      "teamId": 6718,
+      "teamName": "Ukraine",
+      "opponentTeamId": 8568,
+      "opponentTeamName": "Poland",
+      "isHomeTeam": false,
+      "id": 5648177,
+      "matchDate": {
+        "utcTime": "2026-05-31T15:30:00.000Z"
+      },
+      "matchPageUrl": "/matches/ukraine-vs-poland/1xkft1#5648177",
+      "leagueId": 114,
+      "leagueName": "Friendlies",
+      "stage": null,
+      "homeScore": 0,
+      "awayScore": 2,
+      "minutesPlayed": 56,
+      "goals": 1,
+      "assists": 0,
+      "yellowCards": 0,
+      "redCards": 0,
+      "ratingProps": {
+        "rating": 0,
+        "isTopRating": false
+      },
+      "playerOfTheMatch": false,
+      "onBench": false
+    },
+    {
+      "teamId": 9748,
+      "teamName": "Lyon",
+      "opponentTeamId": 8588,
+      "opponentTeamName": "Lens",
+      "isHomeTeam": true,
+      "id": 4830758,
+      "matchDate": {
+        "utcTime": "2026-05-17T19:00:00.000Z"
+      },
+      "matchPageUrl": "/matches/lens-vs-lyon/2s3gtg#4830758",
+      "leagueId": 53,
+      "leagueName": "Ligue 1",
+      "stage": null,
+      "homeScore": 0,
+      "awayScore": 4,
+      "minutesPlayed": 45,
+      "goals": 0,
+      "assists": 0,
+      "yellowCards": 0,
+      "redCards": 0,
+      "ratingProps": {
+        "rating": "6.3",
+        "isTopRating": false
+      },
+      "playerOfTheMatch": false,
+      "onBench": false
+    },
+    {
+      "teamId": 9748,
+      "teamName": "Lyon",
+      "opponentTeamId": 9941,
+      "opponentTeamName": "Toulouse",
+      "isHomeTeam": false,
+      "id": 4830754,
+      "matchDate": {
+        "utcTime": "2026-05-10T19:00:00.000Z"
+      },
+      "matchPageUrl": "/matches/lyon-vs-toulouse/37eu6q#4830754",
+      "leagueId": 53,
+      "leagueName": "Ligue 1",
+      "stage": null,
+      "homeScore": 2,
+      "awayScore": 1,
+      "minutesPlayed": 83,
+      "goals": 0,
+      "assists": 0,
+      "yellowCards": 1,
+      "redCards": 0,
+      "ratingProps": {
+        "rating": "6.0",
+        "isTopRating": false
+      },
+      "playerOfTheMatch": false,
+      "onBench": false
+    },
+    {
+      "teamId": 9748,
+      "teamName": "Lyon",
+      "opponentTeamId": 9851,
+      "opponentTeamName": "Rennes",
+      "isHomeTeam": true,
+      "id": 4830739,
+      "matchDate": {
+        "utcTime": "2026-05-03T18:45:00.000Z"
+      },
+      "matchPageUrl": "/matches/lyon-vs-rennes/36cxwz#4830739",
+      "leagueId": 53,
+      "leagueName": "Ligue 1",
+      "stage": null,
+      "homeScore": 4,
+      "awayScore": 2,
+      "minutesPlayed": 70,
+      "goals": 1,
+      "assists": 0,
+      "yellowCards": 0,
+      "redCards": 0,
+      "ratingProps": {
+        "rating": "8.1",
+        "isTopRating": false
+      },
+      "playerOfTheMatch": false,
+      "onBench": false
+    },
+    {
+      "teamId": 9748,
+      "teamName": "Lyon",
+      "opponentTeamId": 8583,
+      "opponentTeamName": "Auxerre",
+      "isHomeTeam": true,
+      "id": 4830732,
+      "matchDate": {
+        "utcTime": "2026-04-25T13:00:00.000Z"
+      },
+      "matchPageUrl": "/matches/auxerre-vs-lyon/2s1i32#4830732",
+      "leagueId": 53,
+      "leagueName": "Ligue 1",
+      "stage": null,
+      "homeScore": 3,
+      "awayScore": 2,
+      "minutesPlayed": 77,
+      "goals": 2,
+      "assists": 0,
+      "yellowCards": 0,
+      "redCards": 0,
+      "ratingProps": {
+        "rating": "9.0",
+        "isTopRating": true
+      },
+      "playerOfTheMatch": true,
+      "onBench": false
+    },
+    {
+      "teamId": 9748,
+      "teamName": "Lyon",
+      "opponentTeamId": 9847,
+      "opponentTeamName": "Paris Saint-Germain",
+      "isHomeTeam": false,
+      "id": 4830726,
+      "matchDate": {
+        "utcTime": "2026-04-19T18:45:00.000Z"
+      },
+      "matchPageUrl": "/matches/lyon-vs-paris-saint-germain/36b9fd#4830726",
+      "leagueId": 53,
+      "leagueName": "Ligue 1",
+      "stage": null,
+      "homeScore": 1,
+      "awayScore": 2,
+      "minutesPlayed": 0,
+      "goals": 0,
+      "assists": 0,
+      "yellowCards": 0,
+      "redCards": 0,
+      "ratingProps": {
+        "rating": 0,
+        "isTopRating": false
+      },
+      "playerOfTheMatch": false,
+      "onBench": true
+    },
+    {
+      "teamId": 9748,
+      "teamName": "Lyon",
+      "opponentTeamId": 8689,
+      "opponentTeamName": "Lorient",
+      "isHomeTeam": true,
+      "id": 4830713,
+      "matchDate": {
+        "utcTime": "2026-04-12T18:45:00.000Z"
+      },
+      "matchPageUrl": "/matches/lorient-vs-lyon/2t79r7#4830713",
+      "leagueId": 53,
+      "leagueName": "Ligue 1",
+      "stage": null,
+      "homeScore": 2,
+      "awayScore": 0,
+      "minutesPlayed": 86,
+      "goals": 1,
+      "assists": 0,
+      "yellowCards": 0,
+      "redCards": 0,
+      "ratingProps": {
+        "rating": "7.5",
+        "isTopRating": false
+      },
+      "playerOfTheMatch": false,
+      "onBench": false
+    },
+    {
+      "teamId": 9748,
+      "teamName": "Lyon",
+      "opponentTeamId": 8121,
+      "opponentTeamName": "Angers",
+      "isHomeTeam": false,
+      "id": 4830701,
+      "matchDate": {
+        "utcTime": "2026-04-05T13:00:00.000Z"
+      },
+      "matchPageUrl": "/matches/angers-vs-lyon/2n29lb#4830701",
+      "leagueId": 53,
+      "leagueName": "Ligue 1",
+      "stage": null,
+      "homeScore": 0,
+      "awayScore": 0,
+      "minutesPlayed": 35,
+      "goals": 0,
+      "assists": 0,
+      "yellowCards": 0,
+      "redCards": 0,
+      "ratingProps": {
+        "rating": "6.0",
+        "isTopRating": false
+      },
+      "playerOfTheMatch": false,
+      "onBench": false
+    },
+    {
+      "teamId": 6718,
+      "teamName": "Ukraine",
+      "opponentTeamId": 10024,
+      "opponentTeamName": "Albania",
+      "isHomeTeam": true,
+      "id": 5279747,
+      "matchDate": {
+        "utcTime": "2026-03-31T18:45:00.000Z"
+      },
+      "matchPageUrl": "/matches/ukraine-vs-albania/2bg5z7#5279747",
+      "leagueId": 114,
+      "leagueName": "Friendlies",
+      "stage": null,
+      "homeScore": 1,
+      "awayScore": 0,
+      "minutesPlayed": 64,
+      "goals": 0,
+      "assists": 0,
+      "yellowCards": 0,
+      "redCards": 0,
+      "ratingProps": {
+        "rating": 0,
+        "isTopRating": false
+      },
+      "playerOfTheMatch": false,
+      "onBench": false
+    },
+    {
+      "teamId": 6718,
+      "teamName": "Ukraine",
+      "opponentTeamId": 8520,
+      "opponentTeamName": "Sweden",
+      "isHomeTeam": true,
+      "id": 5067288,
+      "matchDate": {
+        "utcTime": "2026-03-26T19:45:00.000Z"
+      },
+      "matchPageUrl": "/matches/ukraine-vs-sweden/1x4qhp#5067288",
+      "leagueId": 10195,
+      "leagueName": "World Cup Qualification UEFA 2nd Round",
+      "stage": "1/2",
+      "homeScore": 1,
+      "awayScore": 3,
+      "minutesPlayed": 30,
+      "goals": 0,
+      "assists": 0,
+      "yellowCards": 0,
+      "redCards": 0,
+      "ratingProps": {
+        "rating": "6.1",
+        "isTopRating": false
+      },
+      "playerOfTheMatch": false,
+      "onBench": false
+    },
+    {
+      "teamId": 9748,
+      "teamName": "Lyon",
+      "opponentTeamId": 9910,
+      "opponentTeamName": "Celta Vigo",
+      "isHomeTeam": true,
+      "id": 5206103,
+      "matchDate": {
+        "utcTime": "2026-03-19T17:45:00.000Z"
+      },
+      "matchPageUrl": "/matches/lyon-vs-celta-vigo/371rkd#5206103",
+      "leagueId": 73,
+      "leagueName": "Europa League",
+      "stage": "1/8",
+      "homeScore": 0,
+      "awayScore": 2,
+      "minutesPlayed": 45,
+      "goals": 0,
+      "assists": 0,
+      "yellowCards": 0,
+      "redCards": 0,
+      "ratingProps": {
+        "rating": "6.0",
+        "isTopRating": false
+      },
+      "playerOfTheMatch": false,
+      "onBench": false
+    },
+    {
+      "teamId": 9748,
+      "teamName": "Lyon",
+      "opponentTeamId": 9746,
+      "opponentTeamName": "Le Havre",
+      "isHomeTeam": false,
+      "id": 4830684,
+      "matchDate": {
+        "utcTime": "2026-03-15T16:15:00.000Z"
+      },
+      "matchPageUrl": "/matches/le-havre-vs-lyon/354y61#4830684",
+      "leagueId": 53,
+      "leagueName": "Ligue 1",
+      "stage": null,
+      "homeScore": 0,
+      "awayScore": 0,
+      "minutesPlayed": 32,
+      "goals": 0,
+      "assists": 0,
+      "yellowCards": 0,
+      "redCards": 0,
+      "ratingProps": {
+        "rating": "5.9",
+        "isTopRating": false
+      },
+      "playerOfTheMatch": false,
+      "onBench": false
+    },
+    {
+      "teamId": 9748,
+      "teamName": "Lyon",
+      "opponentTeamId": 9910,
+      "opponentTeamName": "Celta Vigo",
+      "isHomeTeam": false,
+      "id": 5206095,
+      "matchDate": {
+        "utcTime": "2026-03-12T20:00:00.000Z"
+      },
+      "matchPageUrl": "/matches/lyon-vs-celta-vigo/371rkd#5206095",
+      "leagueId": 73,
+      "leagueName": "Europa League",
+      "stage": "1/8",
+      "homeScore": 1,
+      "awayScore": 1,
+      "minutesPlayed": 90,
+      "goals": 0,
+      "assists": 0,
+      "yellowCards": 0,
+      "redCards": 0,
+      "ratingProps": {
+        "rating": "6.4",
+        "isTopRating": false
+      },
+      "playerOfTheMatch": false,
+      "onBench": false
+    },
+    {
+      "teamId": 9748,
+      "teamName": "Lyon",
+      "opponentTeamId": 6379,
+      "opponentTeamName": "Paris FC",
+      "isHomeTeam": true,
+      "id": 4830678,
+      "matchDate": {
+        "utcTime": "2026-03-08T19:45:00.000Z"
+      },
+      "matchPageUrl": "/matches/paris-fc-vs-lyon/25flas#4830678",
+      "leagueId": 53,
+      "leagueName": "Ligue 1",
+      "stage": null,
+      "homeScore": 1,
+      "awayScore": 1,
+      "minutesPlayed": 32,
+      "goals": 0,
+      "assists": 0,
+      "yellowCards": 0,
+      "redCards": 0,
+      "ratingProps": {
+        "rating": "5.9",
+        "isTopRating": false
+      },
+      "playerOfTheMatch": false,
+      "onBench": false
+    },
+    {
+      "teamId": 9748,
+      "teamName": "Lyon",
+      "opponentTeamId": 8588,
+      "opponentTeamName": "Lens",
+      "isHomeTeam": true,
+      "id": 5172613,
+      "matchDate": {
+        "utcTime": "2026-03-05T20:10:00.000Z"
+      },
+      "matchPageUrl": "/matches/lens-vs-lyon/2s3gtg#5172613",
+      "leagueId": 134,
+      "leagueName": "Coupe de France",
+      "stage": "1/4",
+      "homeScore": 2,
+      "awayScore": 2,
+      "minutesPlayed": 90,
+      "goals": 1,
+      "assists": 0,
+      "yellowCards": 0,
+      "redCards": 0,
+      "ratingProps": {
+        "rating": "8.0",
+        "isTopRating": false
+      },
+      "playerOfTheMatch": false,
+      "onBench": false
+    },
+    {
+      "teamId": 9748,
+      "teamName": "Lyon",
+      "opponentTeamId": 8592,
+      "opponentTeamName": "Marseille",
+      "isHomeTeam": false,
+      "id": 4830668,
+      "matchDate": {
+        "utcTime": "2026-03-01T19:45:00.000Z"
+      },
+      "matchPageUrl": "/matches/marseille-vs-lyon/2s51f2#4830668",
+      "leagueId": 53,
+      "leagueName": "Ligue 1",
+      "stage": null,
+      "homeScore": 3,
+      "awayScore": 2,
+      "minutesPlayed": 60,
+      "goals": 0,
+      "assists": 0,
+      "yellowCards": 0,
+      "redCards": 0,
+      "ratingProps": {
+        "rating": "6.6",
+        "isTopRating": false
+      },
+      "playerOfTheMatch": false,
+      "onBench": false
+    },
+    {
+      "teamId": 9748,
+      "teamName": "Lyon",
+      "opponentTeamId": 9848,
+      "opponentTeamName": "Strasbourg",
+      "isHomeTeam": false,
+      "id": 4830663,
+      "matchDate": {
+        "utcTime": "2026-02-22T19:45:00.000Z"
+      },
+      "matchPageUrl": "/matches/lyon-vs-strasbourg/36bojq#4830663",
+      "leagueId": 53,
+      "leagueName": "Ligue 1",
+      "stage": null,
+      "homeScore": 3,
+      "awayScore": 1,
+      "minutesPlayed": 32,
+      "goals": 0,
+      "assists": 1,
+      "yellowCards": 0,
+      "redCards": 0,
+      "ratingProps": {
+        "rating": "6.9",
+        "isTopRating": false
+      },
+      "playerOfTheMatch": false,
+      "onBench": false
+    },
+    {
+      "teamId": 9748,
+      "teamName": "Lyon",
+      "opponentTeamId": 9831,
+      "opponentTeamName": "Nice",
+      "isHomeTeam": true,
+      "id": 4830650,
+      "matchDate": {
+        "utcTime": "2026-02-15T19:45:00.000Z"
+      },
+      "matchPageUrl": "/matches/lyon-vs-nice/364jld#4830650",
+      "leagueId": 53,
+      "leagueName": "Ligue 1",
+      "stage": null,
+      "homeScore": 2,
+      "awayScore": 0,
+      "minutesPlayed": 9,
+      "goals": 0,
+      "assists": 0,
+      "yellowCards": 0,
+      "redCards": 0,
+      "ratingProps": {
+        "rating": 0,
+        "isTopRating": false
+      },
+      "playerOfTheMatch": false,
+      "onBench": false
+    },
+    {
+      "teamId": 8638,
+      "teamName": "Olympiacos",
+      "opponentTeamId": 885256,
+      "opponentTeamName": "NFC Volos",
+      "isHomeTeam": true,
+      "id": 4859124,
+      "matchDate": {
+        "utcTime": "2026-01-24T15:00:00.000Z"
+      },
+      "matchPageUrl": "/matches/olympiacos-vs-nfc-volos/53jem64d#4859124",
+      "leagueId": 135,
+      "leagueName": "Super League",
+      "stage": null,
+      "homeScore": 1,
+      "awayScore": 0,
+      "minutesPlayed": 26,
+      "goals": 0,
+      "assists": 0,
+      "yellowCards": 0,
+      "redCards": 0,
+      "ratingProps": {
+        "rating": "6.0",
+        "isTopRating": false
+      },
+      "playerOfTheMatch": false,
+      "onBench": false
+    },
+    {
+      "teamId": 8638,
+      "teamName": "Olympiacos",
+      "opponentTeamId": 8178,
+      "opponentTeamName": "Bayer Leverkusen",
+      "isHomeTeam": true,
+      "id": 4947170,
+      "matchDate": {
+        "utcTime": "2026-01-20T20:00:00.000Z"
+      },
+      "matchPageUrl": "/matches/bayer-leverkusen-vs-olympiacos/2c6tjq#4947170",
+      "leagueId": 42,
+      "leagueName": "Champions League",
+      "stage": null,
+      "homeScore": 2,
+      "awayScore": 0,
+      "minutesPlayed": 0,
+      "goals": 0,
+      "assists": 0,
+      "yellowCards": 0,
+      "redCards": 0,
+      "ratingProps": {
+        "rating": 0,
+        "isTopRating": false
+      },
+      "playerOfTheMatch": false,
+      "onBench": true
+    },
+    {
+      "teamId": 8638,
+      "teamName": "Olympiacos",
+      "opponentTeamId": 8619,
+      "opponentTeamName": "PAOK Thessaloniki",
+      "isHomeTeam": true,
+      "id": 5102847,
+      "matchDate": {
+        "utcTime": "2026-01-14T16:30:00.000Z"
+      },
+      "matchPageUrl": "/matches/paok-thessaloniki-vs-olympiacos/2gnuuz#5102847",
+      "leagueId": 145,
+      "leagueName": "Cup",
+      "stage": "1/4",
+      "homeScore": 0,
+      "awayScore": 2,
+      "minutesPlayed": 59,
+      "goals": 0,
+      "assists": 0,
+      "yellowCards": 0,
+      "redCards": 0,
+      "ratingProps": {
+        "rating": "6.4",
+        "isTopRating": false
+      },
+      "playerOfTheMatch": false,
+      "onBench": false
+    },
+    {
+      "teamId": 8638,
+      "teamName": "Olympiacos",
+      "opponentTeamId": 10187,
+      "opponentTeamName": "Atromitos",
+      "isHomeTeam": false,
+      "id": 4859105,
+      "matchDate": {
+        "utcTime": "2026-01-10T17:30:00.000Z"
+      },
+      "matchPageUrl": "/matches/olympiacos-vs-atromitos/2xi6uj#4859105",
+      "leagueId": 135,
+      "leagueName": "Super League",
+      "stage": null,
+      "homeScore": 0,
+      "awayScore": 2,
+      "minutesPlayed": 5,
+      "goals": 0,
+      "assists": 0,
+      "yellowCards": 1,
+      "redCards": 0,
+      "ratingProps": {
+        "rating": 0,
+        "isTopRating": false
+      },
+      "playerOfTheMatch": false,
+      "onBench": false
+    },
+    {
+      "teamId": 8638,
+      "teamName": "Olympiacos",
+      "opponentTeamId": 7753,
+      "opponentTeamName": "OFI Crete",
+      "isHomeTeam": true,
+      "id": 5084429,
+      "matchDate": {
+        "utcTime": "2026-01-03T15:00:00.000Z"
+      },
+      "matchPageUrl": "/matches/ofi-crete-vs-olympiacos/27zkka#5084429",
+      "leagueId": 8816,
+      "leagueName": "Super Cup",
+      "stage": "final",
+      "homeScore": 3,
+      "awayScore": 0,
+      "minutesPlayed": 30,
+      "goals": 0,
+      "assists": 0,
+      "yellowCards": 0,
+      "redCards": 0,
+      "ratingProps": {
+        "rating": 0,
+        "isTopRating": false
+      },
+      "playerOfTheMatch": false,
+      "onBench": false
+    },
+    {
+      "teamId": 8638,
+      "teamName": "Olympiacos",
+      "opponentTeamId": 488099,
+      "opponentTeamName": "Kifisia FC",
+      "isHomeTeam": true,
+      "id": 4859100,
+      "matchDate": {
+        "utcTime": "2025-12-20T18:30:00.000Z"
+      },
+      "matchPageUrl": "/matches/olympiacos-vs-kifisia-fc/1kodqpu7#4859100",
+      "leagueId": 135,
+      "leagueName": "Super League",
+      "stage": null,
+      "homeScore": 1,
+      "awayScore": 1,
+      "minutesPlayed": 86,
+      "goals": 0,
+      "assists": 0,
+      "yellowCards": 0,
+      "redCards": 0,
+      "ratingProps": {
+        "rating": "6.6",
+        "isTopRating": false
+      },
+      "playerOfTheMatch": false,
+      "onBench": false
+    },
+    {
+      "teamId": 8638,
+      "teamName": "Olympiacos",
+      "opponentTeamId": 8675,
+      "opponentTeamName": "Iraklis",
+      "isHomeTeam": true,
+      "id": 4955858,
+      "matchDate": {
+        "utcTime": "2025-12-17T16:00:00.000Z"
+      },
+      "matchPageUrl": "/matches/olympiacos-vs-iraklis/2h8lsk#4955858",
+      "leagueId": 145,
+      "leagueName": "Cup",
+      "stage": null,
+      "homeScore": 6,
+      "awayScore": 0,
+      "minutesPlayed": 68,
+      "goals": 1,
+      "assists": 0,
+      "yellowCards": 0,
+      "redCards": 0,
+      "ratingProps": {
+        "rating": 0,
+        "isTopRating": false
+      },
+      "playerOfTheMatch": false,
+      "onBench": false
+    },
+    {
+      "teamId": 8638,
+      "teamName": "Olympiacos",
+      "opponentTeamId": 8239,
+      "opponentTeamName": "Aris Thessaloniki",
+      "isHomeTeam": false,
+      "id": 4859090,
+      "matchDate": {
+        "utcTime": "2025-12-14T18:00:00.000Z"
+      },
+      "matchPageUrl": "/matches/aris-thessaloniki-vs-olympiacos/2csui1#4859090",
+      "leagueId": 135,
+      "leagueName": "Super League",
+      "stage": null,
+      "homeScore": 0,
+      "awayScore": 0,
+      "minutesPlayed": 4,
+      "goals": 0,
+      "assists": 0,
+      "yellowCards": 0,
+      "redCards": 0,
+      "ratingProps": {
+        "rating": 0,
+        "isTopRating": false
+      },
+      "playerOfTheMatch": false,
+      "onBench": false
+    },
+    {
+      "teamId": 8638,
+      "teamName": "Olympiacos",
+      "opponentTeamId": 8037,
+      "opponentTeamName": "Kairat Almaty",
+      "isHomeTeam": false,
+      "id": 4947231,
+      "matchDate": {
+        "utcTime": "2025-12-09T15:30:00.000Z"
+      },
+      "matchPageUrl": "/matches/kairat-almaty-vs-olympiacos/2as7n8#4947231",
+      "leagueId": 42,
+      "leagueName": "Champions League",
+      "stage": null,
+      "homeScore": 0,
+      "awayScore": 1,
+      "minutesPlayed": 0,
+      "goals": 0,
+      "assists": 0,
+      "yellowCards": 0,
+      "redCards": 0,
+      "ratingProps": {
+        "rating": 0,
+        "isTopRating": false
+      },
+      "playerOfTheMatch": false,
+      "onBench": true
+    },
+    {
+      "teamId": 8638,
+      "teamName": "Olympiacos",
+      "opponentTeamId": 7753,
+      "opponentTeamName": "OFI Crete",
+      "isHomeTeam": true,
+      "id": 4859086,
+      "matchDate": {
+        "utcTime": "2025-12-06T15:00:00.000Z"
+      },
+      "matchPageUrl": "/matches/ofi-crete-vs-olympiacos/27zkka#4859086",
+      "leagueId": 135,
+      "leagueName": "Super League",
+      "stage": null,
+      "homeScore": 3,
+      "awayScore": 0,
+      "minutesPlayed": 23,
+      "goals": 0,
+      "assists": 0,
+      "yellowCards": 0,
+      "redCards": 0,
+      "ratingProps": {
+        "rating": "6.5",
+        "isTopRating": false
+      },
+      "playerOfTheMatch": false,
+      "onBench": false
+    },
+    {
+      "teamId": 8638,
+      "teamName": "Olympiacos",
+      "opponentTeamId": 1797422,
+      "opponentTeamName": "Hellas Syros",
+      "isHomeTeam": false,
+      "id": 4955886,
+      "matchDate": {
+        "utcTime": "2025-12-03T11:30:00.000Z"
+      },
+      "matchPageUrl": "/matches/olympiacos-vs-hellas-syros/kt8jzm64#4955886",
+      "leagueId": 145,
+      "leagueName": "Cup",
+      "stage": null,
+      "homeScore": 2,
+      "awayScore": 5,
+      "minutesPlayed": 90,
+      "goals": 1,
+      "assists": 0,
+      "yellowCards": 0,
+      "redCards": 0,
+      "ratingProps": {
+        "rating": 0,
+        "isTopRating": false
+      },
+      "playerOfTheMatch": false,
+      "onBench": false
+    },
+    {
+      "teamId": 8638,
+      "teamName": "Olympiacos",
+      "opponentTeamId": 162386,
+      "opponentTeamName": "Panetolikos",
+      "isHomeTeam": false,
+      "id": 4859082,
+      "matchDate": {
+        "utcTime": "2025-11-30T15:00:00.000Z"
+      },
+      "matchPageUrl": "/matches/olympiacos-vs-panetolikos/6pv61ja#4859082",
+      "leagueId": 135,
+      "leagueName": "Super League",
+      "stage": null,
+      "homeScore": 0,
+      "awayScore": 1,
+      "minutesPlayed": 80,
+      "goals": 0,
+      "assists": 0,
+      "yellowCards": 0,
+      "redCards": 0,
+      "ratingProps": {
+        "rating": "6.4",
+        "isTopRating": false
+      },
+      "playerOfTheMatch": false,
+      "onBench": false
+    },
+    {
+      "teamId": 8638,
+      "teamName": "Olympiacos",
+      "opponentTeamId": 8633,
+      "opponentTeamName": "Real Madrid",
+      "isHomeTeam": true,
+      "id": 4947121,
+      "matchDate": {
+        "utcTime": "2025-11-26T20:00:00.000Z"
+      },
+      "matchPageUrl": "/matches/real-madrid-vs-olympiacos/2gt1cy#4947121",
+      "leagueId": 42,
+      "leagueName": "Champions League",
+      "stage": null,
+      "homeScore": 3,
+      "awayScore": 4,
+      "minutesPlayed": 0,
+      "goals": 0,
+      "assists": 0,
+      "yellowCards": 0,
+      "redCards": 0,
+      "ratingProps": {
+        "rating": 0,
+        "isTopRating": false
+      },
+      "playerOfTheMatch": false,
+      "onBench": true
+    },
+    {
+      "teamId": 8638,
+      "teamName": "Olympiacos",
+      "opponentTeamId": 10187,
+      "opponentTeamName": "Atromitos",
+      "isHomeTeam": true,
+      "id": 4859072,
+      "matchDate": {
+        "utcTime": "2025-11-22T18:00:00.000Z"
+      },
+      "matchPageUrl": "/matches/olympiacos-vs-atromitos/2xi6uj#4859072",
+      "leagueId": 135,
+      "leagueName": "Super League",
+      "stage": null,
+      "homeScore": 3,
+      "awayScore": 0,
+      "minutesPlayed": 23,
+      "goals": 0,
+      "assists": 1,
+      "yellowCards": 0,
+      "redCards": 0,
+      "ratingProps": {
+        "rating": "7.0",
+        "isTopRating": false
+      },
+      "playerOfTheMatch": false,
+      "onBench": false
+    },
+    {
+      "teamId": 6718,
+      "teamName": "Ukraine",
+      "opponentTeamId": 8536,
+      "opponentTeamName": "Iceland",
+      "isHomeTeam": true,
+      "id": 4689338,
+      "matchDate": {
+        "utcTime": "2025-11-16T17:00:00.000Z"
+      },
+      "matchPageUrl": "/matches/ukraine-vs-iceland/1x9yqd#4689338",
+      "leagueId": 10195,
+      "leagueName": "World Cup Qualification UEFA 1st Round Grp. D",
+      "stage": null,
+      "homeScore": 2,
+      "awayScore": 0,
+      "minutesPlayed": 21,
+      "goals": 0,
+      "assists": 0,
+      "yellowCards": 0,
+      "redCards": 0,
+      "ratingProps": {
+        "rating": "6.4",
+        "isTopRating": false
+      },
+      "playerOfTheMatch": false,
+      "onBench": false
+    },
+    {
+      "teamId": 6718,
+      "teamName": "Ukraine",
+      "opponentTeamId": 6723,
+      "opponentTeamName": "France",
+      "isHomeTeam": false,
+      "id": 4689336,
+      "matchDate": {
+        "utcTime": "2025-11-13T19:45:00.000Z"
+      },
+      "matchPageUrl": "/matches/ukraine-vs-france/1hsdms#4689336",
+      "leagueId": 10195,
+      "leagueName": "World Cup Qualification UEFA 1st Round Grp. D",
+      "stage": null,
+      "homeScore": 4,
+      "awayScore": 0,
+      "minutesPlayed": 75,
+      "goals": 0,
+      "assists": 0,
+      "yellowCards": 0,
+      "redCards": 0,
+      "ratingProps": {
+        "rating": "6.6",
+        "isTopRating": false
+      },
+      "playerOfTheMatch": false,
+      "onBench": false
+    },
+    {
+      "teamId": 8638,
+      "teamName": "Olympiacos",
+      "opponentTeamId": 488099,
+      "opponentTeamName": "Kifisia FC",
+      "isHomeTeam": false,
+      "id": 4859064,
+      "matchDate": {
+        "utcTime": "2025-11-09T13:00:00.000Z"
+      },
+      "matchPageUrl": "/matches/olympiacos-vs-kifisia-fc/1kodqpu7#4859064",
+      "leagueId": 135,
+      "leagueName": "Super League",
+      "stage": null,
+      "homeScore": 1,
+      "awayScore": 3,
+      "minutesPlayed": 15,
+      "goals": 0,
+      "assists": 0,
+      "yellowCards": 0,
+      "redCards": 0,
+      "ratingProps": {
+        "rating": "5.9",
+        "isTopRating": false
+      },
+      "playerOfTheMatch": false,
+      "onBench": false
+    },
+    {
+      "teamId": 8638,
+      "teamName": "Olympiacos",
+      "opponentTeamId": 8640,
+      "opponentTeamName": "PSV Eindhoven",
+      "isHomeTeam": true,
+      "id": 4947228,
+      "matchDate": {
+        "utcTime": "2025-11-04T20:00:00.000Z"
+      },
+      "matchPageUrl": "/matches/olympiacos-vs-psv-eindhoven/2gvmo1#4947228",
+      "leagueId": 42,
+      "leagueName": "Champions League",
+      "stage": null,
+      "homeScore": 1,
+      "awayScore": 1,
+      "minutesPlayed": 0,
+      "goals": 0,
+      "assists": 0,
+      "yellowCards": 0,
+      "redCards": 0,
+      "ratingProps": {
+        "rating": 0,
+        "isTopRating": false
+      },
+      "playerOfTheMatch": false,
+      "onBench": true
+    },
+    {
+      "teamId": 8638,
+      "teamName": "Olympiacos",
+      "opponentTeamId": 8239,
+      "opponentTeamName": "Aris Thessaloniki",
+      "isHomeTeam": true,
+      "id": 4859059,
+      "matchDate": {
+        "utcTime": "2025-11-01T18:00:00.000Z"
+      },
+      "matchPageUrl": "/matches/aris-thessaloniki-vs-olympiacos/2csui1#4859059",
+      "leagueId": 135,
+      "leagueName": "Super League",
+      "stage": null,
+      "homeScore": 2,
+      "awayScore": 1,
+      "minutesPlayed": 0,
+      "goals": 0,
+      "assists": 0,
+      "yellowCards": 0,
+      "redCards": 0,
+      "ratingProps": {
+        "rating": 0,
+        "isTopRating": false
+      },
+      "playerOfTheMatch": false,
+      "onBench": true
+    },
+    {
+      "teamId": 8638,
+      "teamName": "Olympiacos",
+      "opponentTeamId": 885256,
+      "opponentTeamName": "NFC Volos",
+      "isHomeTeam": true,
+      "id": 4955877,
+      "matchDate": {
+        "utcTime": "2025-10-29T15:30:00.000Z"
+      },
+      "matchPageUrl": "/matches/olympiacos-vs-nfc-volos/53jem64d#4955877",
+      "leagueId": 145,
+      "leagueName": "Cup",
+      "stage": null,
+      "homeScore": 5,
+      "awayScore": 0,
+      "minutesPlayed": 59,
+      "goals": 2,
+      "assists": 0,
+      "yellowCards": 0,
+      "redCards": 0,
+      "ratingProps": {
+        "rating": 0,
+        "isTopRating": false
+      },
+      "playerOfTheMatch": false,
+      "onBench": false
+    },
+    {
+      "teamId": 8638,
+      "teamName": "Olympiacos",
+      "opponentTeamId": 8563,
+      "opponentTeamName": "AEK Athens",
+      "isHomeTeam": true,
+      "id": 4859051,
+      "matchDate": {
+        "utcTime": "2025-10-26T19:00:00.000Z"
+      },
+      "matchPageUrl": "/matches/aek-athens-vs-olympiacos/2g36dj#4859051",
+      "leagueId": 135,
+      "leagueName": "Super League",
+      "stage": null,
+      "homeScore": 2,
+      "awayScore": 0,
+      "minutesPlayed": 6,
+      "goals": 0,
+      "assists": 0,
+      "yellowCards": 0,
+      "redCards": 0,
+      "ratingProps": {
+        "rating": 0,
+        "isTopRating": false
+      },
+      "playerOfTheMatch": false,
+      "onBench": false
+    },
+    {
+      "teamId": 8638,
+      "teamName": "Olympiacos",
+      "opponentTeamId": 8634,
+      "opponentTeamName": "Barcelona",
+      "isHomeTeam": false,
+      "id": 4947148,
+      "matchDate": {
+        "utcTime": "2025-10-21T16:45:00.000Z"
+      },
+      "matchPageUrl": "/matches/barcelona-vs-olympiacos/2gteoq#4947148",
+      "leagueId": 42,
+      "leagueName": "Champions League",
+      "stage": null,
+      "homeScore": 6,
+      "awayScore": 1,
+      "minutesPlayed": 12,
+      "goals": 0,
+      "assists": 0,
+      "yellowCards": 0,
+      "redCards": 0,
+      "ratingProps": {
+        "rating": "5.7",
+        "isTopRating": false
+      },
+      "playerOfTheMatch": false,
+      "onBench": false
+    },
+    {
+      "teamId": 8638,
+      "teamName": "Olympiacos",
+      "opponentTeamId": 8120,
+      "opponentTeamName": "AE Larissa",
+      "isHomeTeam": false,
+      "id": 4859042,
+      "matchDate": {
+        "utcTime": "2025-10-18T14:00:00.000Z"
+      },
+      "matchPageUrl": "/matches/ae-larissa-vs-olympiacos/2bly97#4859042",
+      "leagueId": 135,
+      "leagueName": "Super League",
+      "stage": null,
+      "homeScore": 0,
+      "awayScore": 2,
+      "minutesPlayed": 18,
+      "goals": 0,
+      "assists": 0,
+      "yellowCards": 0,
+      "redCards": 0,
+      "ratingProps": {
+        "rating": "6.4",
+        "isTopRating": false
+      },
+      "playerOfTheMatch": false,
+      "onBench": false
+    }
+  ],
+  "careerHistory": {
+    "showFootnote": false,
+    "careerItems": {
+      "senior": {
+        "teamEntries": [
+          {
+            "participantId": 643690,
+            "teamId": 8638,
+            "team": "Olympiacos",
+            "teamGender": "male",
+            "showTeamGender": false,
+            "transferType": {
+              "text": "back from loan",
+              "localizationKey": "transfer_type_back_from_loan"
+            },
+            "startDate": "2026-07-01T00:00:00",
+            "endDate": null,
+            "active": false,
+            "role": null,
+            "appearances": null,
+            "goals": null,
+            "assists": null,
+            "hasUncertainData": false
+          },
+          {
+            "participantId": 643690,
+            "teamId": 9748,
+            "team": "Lyon",
+            "teamGender": "male",
+            "showTeamGender": false,
+            "transferType": {
+              "text": "on loan",
+              "localizationKey": "on_loan"
+            },
+            "startDate": "2026-02-02T00:00:00",
+            "endDate": "2026-06-30T00:00:00",
+            "active": true,
+            "role": null,
+            "appearances": "14",
+            "goals": "5",
+            "assists": "1",
+            "hasUncertainData": false
+          },
+          {
+            "participantId": 643690,
+            "teamId": 8638,
+            "team": "Olympiacos",
+            "teamGender": "male",
+            "showTeamGender": false,
+            "transferType": null,
+            "startDate": "2024-07-30T00:00:00",
+            "endDate": "2026-02-02T00:00:00",
+            "active": false,
+            "role": null,
+            "appearances": "49",
+            "goals": "14",
+            "assists": "4",
+            "hasUncertainData": false
+          },
+          {
+            "participantId": 643690,
+            "teamId": 8342,
+            "team": "Club Brugge",
+            "teamGender": "male",
+            "showTeamGender": false,
+            "transferType": {
+              "text": "back from loan",
+              "localizationKey": "transfer_type_back_from_loan"
+            },
+            "startDate": "2024-07-01T00:00:00",
+            "endDate": "2024-07-01T00:00:00",
+            "active": false,
+            "role": null,
+            "appearances": null,
+            "goals": null,
+            "assists": null,
+            "hasUncertainData": false
+          },
+          {
+            "participantId": 643690,
+            "teamId": 10267,
+            "team": "Valencia",
+            "teamGender": "male",
+            "showTeamGender": false,
+            "transferType": {
+              "text": "on loan",
+              "localizationKey": "on_loan"
+            },
+            "startDate": "2023-09-01T00:00:00",
+            "endDate": "2024-06-30T00:00:00",
+            "active": false,
+            "role": null,
+            "appearances": "29",
+            "goals": "4",
+            "assists": "0",
+            "hasUncertainData": false
+          },
+          {
+            "participantId": 643690,
+            "teamId": 8342,
+            "team": "Club Brugge",
+            "teamGender": "male",
+            "showTeamGender": false,
+            "transferType": null,
+            "startDate": "2022-08-30T00:00:00",
+            "endDate": "2023-09-01T00:00:00",
+            "active": false,
+            "role": null,
+            "appearances": "32",
+            "goals": "6",
+            "assists": "2",
+            "hasUncertainData": false
+          },
+          {
+            "participantId": 643690,
+            "teamId": 9772,
+            "team": "Benfica",
+            "teamGender": "male",
+            "showTeamGender": false,
+            "transferType": null,
+            "startDate": "2021-07-31T00:00:00",
+            "endDate": "2022-08-29T00:00:00",
+            "active": false,
+            "role": null,
+            "appearances": "47",
+            "goals": "9",
+            "assists": "5",
+            "hasUncertainData": false
+          },
+          {
+            "participantId": 643690,
+            "teamId": 9991,
+            "team": "Gent",
+            "teamGender": "male",
+            "showTeamGender": false,
+            "transferType": null,
+            "startDate": "2017-08-17T00:00:00",
+            "endDate": "2021-07-31T00:00:00",
+            "active": false,
+            "role": null,
+            "appearances": "152",
+            "goals": "61",
+            "assists": "15",
+            "hasUncertainData": false
+          },
+          {
+            "participantId": 643690,
+            "teamId": 8688,
+            "team": "Dynamo Kyiv",
+            "teamGender": "male",
+            "showTeamGender": false,
+            "transferType": {
+              "text": "back from loan",
+              "localizationKey": "transfer_type_back_from_loan"
+            },
+            "startDate": "2017-01-01T00:00:00",
+            "endDate": "2017-06-30T00:00:00",
+            "active": false,
+            "role": null,
+            "appearances": "10",
+            "goals": "0",
+            "assists": "0",
+            "hasUncertainData": false
+          },
+          {
+            "participantId": 643690,
+            "teamId": 6072,
+            "team": "FC Oleksandriya",
+            "teamGender": "male",
+            "showTeamGender": false,
+            "transferType": {
+              "text": "on loan",
+              "localizationKey": "on_loan"
+            },
+            "startDate": "2016-07-01T00:00:00",
+            "endDate": "2016-12-31T00:00:00",
+            "active": false,
+            "role": null,
+            "appearances": "17",
+            "goals": "6",
+            "assists": "1",
+            "hasUncertainData": false
+          },
+          {
+            "participantId": 643690,
+            "teamId": 8688,
+            "team": "Dynamo Kyiv",
+            "teamGender": "male",
+            "showTeamGender": false,
+            "transferType": null,
+            "startDate": "2015-07-01T00:00:00",
+            "endDate": "2016-06-30T00:00:00",
+            "active": false,
+            "role": null,
+            "appearances": "1",
+            "goals": "0",
+            "assists": "0",
+            "hasUncertainData": false
+          },
+          {
+            "participantId": 643690,
+            "teamId": 187935,
+            "team": "Dynamo Kyiv II",
+            "teamGender": "male",
+            "showTeamGender": false,
+            "transferType": null,
+            "startDate": "2013-07-01T00:00:00",
+            "endDate": "2015-06-30T00:00:00",
+            "active": false,
+            "role": null,
+            "appearances": "42",
+            "goals": "7",
+            "assists": "0",
+            "hasUncertainData": false
+          }
+        ],
+        "seasonEntries": [
+          {
+            "seasonName": "2025/2026",
+            "appearances": "14",
+            "goals": "5",
+            "assists": "1",
+            "rating": {
+              "rating": "6.80"
+            },
+            "tournamentStats": [
+              {
+                "isFriendly": false,
+                "leagueId": 53,
+                "leagueName": "Ligue 1",
+                "seasonName": "2025/2026",
+                "tournamentId": 27212,
+                "goals": "4",
+                "assists": "1",
+                "appearances": "11",
+                "rating": {
+                  "rating": "6.81"
+                }
+              },
+              {
+                "isFriendly": false,
+                "leagueId": 134,
+                "leagueName": "Coupe de France",
+                "seasonName": "2025/2026",
+                "tournamentId": 28916,
+                "goals": "1",
+                "assists": "0",
+                "appearances": "1",
+                "rating": {
+                  "rating": "8.03"
+                }
+              },
+              {
+                "isFriendly": false,
+                "leagueId": 73,
+                "leagueName": "Europa League",
+                "seasonName": "2025/2026",
+                "tournamentId": 28190,
+                "goals": "0",
+                "assists": "0",
+                "appearances": "2",
+                "rating": {
+                  "rating": "6.18"
+                }
+              }
+            ],
+            "teamId": 9748,
+            "team": "Lyon",
+            "teamGender": "male",
+            "showTeamGender": false,
+            "transferType": {
+              "text": "on loan",
+              "localizationKey": "on_loan"
+            }
+          },
+          {
+            "seasonName": "2025/2026",
+            "appearances": "16",
+            "goals": "4",
+            "assists": "1",
+            "rating": {
+              "rating": "6.30"
+            },
+            "tournamentStats": [
+              {
+                "isFriendly": false,
+                "leagueId": 135,
+                "leagueName": "Super League 1",
+                "seasonName": "2025/2026",
+                "tournamentId": 27184,
+                "goals": "0",
+                "assists": "1",
+                "appearances": "10",
+                "rating": {
+                  "rating": "6.37"
+                }
+              },
+              {
+                "isFriendly": false,
+                "leagueId": 145,
+                "leagueName": "Greece Cup",
+                "seasonName": "2025/2026",
+                "tournamentId": -1,
+                "goals": "4",
+                "assists": "0",
+                "appearances": "4",
+                "rating": {
+                  "rating": null
+                }
+              },
+              {
+                "isFriendly": false,
+                "leagueId": 42,
+                "leagueName": "Champions League",
+                "seasonName": "2025/2026",
+                "tournamentId": 28184,
+                "goals": "0",
+                "assists": "0",
+                "appearances": "1",
+                "rating": {
+                  "rating": "5.68"
+                }
+              },
+              {
+                "isFriendly": false,
+                "leagueName": "Super Cup",
+                "seasonName": "2025/2026",
+                "tournamentId": -1,
+                "goals": "0",
+                "assists": "0",
+                "appearances": "1",
+                "rating": {
+                  "rating": null
+                }
+              }
+            ],
+            "teamId": 8638,
+            "team": "Olympiacos",
+            "teamGender": "male",
+            "showTeamGender": false,
+            "transferType": null
+          },
+          {
+            "seasonName": "2024/2025",
+            "appearances": "33",
+            "goals": "10",
+            "assists": "3",
+            "rating": {
+              "rating": "6.83"
+            },
+            "tournamentStats": [
+              {
+                "isFriendly": false,
+                "leagueId": 135,
+                "leagueName": "Super League 1",
+                "seasonName": "2024/2025",
+                "tournamentId": 23900,
+                "goals": "4",
+                "assists": "2",
+                "appearances": "23",
+                "rating": {
+                  "rating": "6.80"
+                }
+              },
+              {
+                "isFriendly": false,
+                "leagueId": 145,
+                "leagueName": "Greece Cup",
+                "seasonName": "2024/2025",
+                "tournamentId": -1,
+                "goals": "4",
+                "assists": "1",
+                "appearances": "3",
+                "rating": {
+                  "rating": null
+                }
+              },
+              {
+                "isFriendly": false,
+                "leagueId": 73,
+                "leagueName": "Europa League",
+                "seasonName": "2024/2025",
+                "tournamentId": 24112,
+                "goals": "2",
+                "assists": "0",
+                "appearances": "7",
+                "rating": {
+                  "rating": "6.95"
+                }
+              }
+            ],
+            "teamId": 8638,
+            "team": "Olympiacos",
+            "teamGender": "male",
+            "showTeamGender": false,
+            "transferType": null
+          },
+          {
+            "seasonName": "2023/2024",
+            "appearances": "29",
+            "goals": "4",
+            "assists": "0",
+            "rating": {
+              "rating": "6.35"
+            },
+            "tournamentStats": [
+              {
+                "isFriendly": false,
+                "leagueId": 87,
+                "leagueName": "LaLiga",
+                "seasonName": "2023/2024",
+                "tournamentId": 21053,
+                "goals": "3",
+                "assists": "0",
+                "appearances": "25",
+                "rating": {
+                  "rating": "6.30"
+                }
+              },
+              {
+                "isFriendly": false,
+                "leagueId": 138,
+                "leagueName": "Copa del Rey",
+                "seasonName": "2023/2024",
+                "tournamentId": 22078,
+                "goals": "1",
+                "assists": "0",
+                "appearances": "4",
+                "rating": {
+                  "rating": "6.69"
+                }
+              }
+            ],
+            "teamId": 10267,
+            "team": "Valencia",
+            "teamGender": "male",
+            "showTeamGender": false,
+            "transferType": {
+              "text": "on loan",
+              "localizationKey": "on_loan"
+            }
+          },
+          {
+            "seasonName": "2023/2024",
+            "appearances": "5",
+            "goals": "4",
+            "assists": "0",
+            "rating": {
+              "rating": "6.46"
+            },
+            "tournamentStats": [
+              {
+                "isFriendly": false,
+                "leagueId": 40,
+                "leagueName": "First Division A",
+                "seasonName": "2023/2024",
+                "tournamentId": 20957,
+                "goals": "0",
+                "assists": "0",
+                "appearances": "3",
+                "rating": {
+                  "rating": "6.46"
+                }
+              },
+              {
+                "isFriendly": false,
+                "leagueId": 10216,
+                "leagueName": "Conference League",
+                "seasonName": "2023/2024",
+                "tournamentId": 21016,
+                "goals": "4",
+                "assists": "0",
+                "appearances": "2",
+                "rating": {
+                  "rating": null
+                }
+              }
+            ],
+            "teamId": 8342,
+            "team": "Club Brugge",
+            "teamGender": "male",
+            "showTeamGender": false,
+            "transferType": null
+          },
+          {
+            "seasonName": "2022/2023",
+            "appearances": "27",
+            "goals": "2",
+            "assists": "2",
+            "rating": {
+              "rating": "6.38"
+            },
+            "tournamentStats": [
+              {
+                "isFriendly": false,
+                "leagueId": 40,
+                "leagueName": "First Division A",
+                "seasonName": "2022/2023",
+                "tournamentId": 17862,
+                "goals": "2",
+                "assists": "2",
+                "appearances": "23",
+                "rating": {
+                  "rating": "6.42"
+                }
+              },
+              {
+                "isFriendly": false,
+                "leagueId": 42,
+                "leagueName": "Champions League",
+                "seasonName": "2022/2023",
+                "tournamentId": 17697,
+                "goals": "0",
+                "assists": "0",
+                "appearances": "4",
+                "rating": {
+                  "rating": "6.21"
+                }
+              }
+            ],
+            "teamId": 8342,
+            "team": "Club Brugge",
+            "teamGender": "male",
+            "showTeamGender": false,
+            "transferType": null
+          },
+          {
+            "seasonName": "2022/2023",
+            "appearances": "5",
+            "goals": "0",
+            "assists": "1",
+            "rating": {
+              "rating": "6.23"
+            },
+            "tournamentStats": [
+              {
+                "isFriendly": false,
+                "leagueId": 61,
+                "leagueName": "Liga Portugal",
+                "seasonName": "2022/2023",
+                "tournamentId": 17953,
+                "goals": "0",
+                "assists": "0",
+                "appearances": "2",
+                "rating": {
+                  "rating": "6.26"
+                }
+              },
+              {
+                "isFriendly": false,
+                "leagueId": 42,
+                "leagueName": "Champions League",
+                "seasonName": "2022/2023",
+                "tournamentId": 17697,
+                "goals": "0",
+                "assists": "1",
+                "appearances": "3",
+                "rating": {
+                  "rating": "6.21"
+                }
+              }
+            ],
+            "teamId": 9772,
+            "team": "Benfica",
+            "teamGender": "male",
+            "showTeamGender": false,
+            "transferType": null
+          },
+          {
+            "seasonName": "2021/2022",
+            "appearances": "42",
+            "goals": "9",
+            "assists": "4",
+            "rating": {
+              "rating": "6.68"
+            },
+            "tournamentStats": [
+              {
+                "isFriendly": false,
+                "leagueId": 61,
+                "leagueName": "Liga Portugal",
+                "seasonName": "2021/2022",
+                "tournamentId": 16582,
+                "goals": "6",
+                "assists": "3",
+                "appearances": "23",
+                "rating": {
+                  "rating": "6.70"
+                }
+              },
+              {
+                "isFriendly": false,
+                "leagueId": 187,
+                "leagueName": "League Cup",
+                "seasonName": "2021/2022",
+                "tournamentId": 16584,
+                "goals": "0",
+                "assists": "0",
+                "appearances": "4",
+                "rating": {
+                  "rating": null
+                }
+              },
+              {
+                "isFriendly": false,
+                "leagueId": 186,
+                "leagueName": "Taca de Portugal",
+                "seasonName": "2021/2022",
+                "tournamentId": 16878,
+                "goals": "0",
+                "assists": "0",
+                "appearances": "2",
+                "rating": {
+                  "rating": null
+                }
+              },
+              {
+                "isFriendly": false,
+                "leagueId": 42,
+                "leagueName": "Champions League",
+                "seasonName": "2021/2022",
+                "tournamentId": 16407,
+                "goals": "3",
+                "assists": "1",
+                "appearances": "13",
+                "rating": {
+                  "rating": "6.67"
+                }
+              }
+            ],
+            "teamId": 9772,
+            "team": "Benfica",
+            "teamGender": "male",
+            "showTeamGender": false,
+            "transferType": null
+          },
+          {
+            "seasonName": "2020/2021",
+            "appearances": "43",
+            "goals": "23",
+            "assists": "8",
+            "rating": {
+              "rating": "7.17"
+            },
+            "tournamentStats": [
+              {
+                "isFriendly": false,
+                "leagueId": 40,
+                "leagueName": "First Division A",
+                "seasonName": "2020/2021",
+                "tournamentId": 15312,
+                "goals": "20",
+                "assists": "7",
+                "appearances": "34",
+                "rating": {
+                  "rating": "7.27"
+                }
+              },
+              {
+                "isFriendly": false,
+                "leagueId": 149,
+                "leagueName": "Cup",
+                "seasonName": "2020/2021",
+                "tournamentId": 15704,
+                "goals": "1",
+                "assists": "0",
+                "appearances": "2",
+                "rating": {
+                  "rating": null
+                }
+              },
+              {
+                "isFriendly": false,
+                "leagueId": 42,
+                "leagueName": "Champions League",
+                "seasonName": "2020/2021",
+                "tournamentId": 15237,
+                "goals": "1",
+                "assists": "0",
+                "appearances": "2",
+                "rating": {
+                  "rating": null
+                }
+              },
+              {
+                "isFriendly": false,
+                "leagueId": 73,
+                "leagueName": "Europa League",
+                "seasonName": "2020/2021",
+                "tournamentId": 15238,
+                "goals": "1",
+                "assists": "1",
+                "appearances": "5",
+                "rating": {
+                  "rating": "6.55"
+                }
+              }
+            ],
+            "teamId": 9991,
+            "team": "Gent",
+            "teamGender": "male",
+            "showTeamGender": false,
+            "transferType": null
+          },
+          {
+            "seasonName": "2019/2020",
+            "appearances": "30",
+            "goals": "17",
+            "assists": "2",
+            "rating": {
+              "rating": "7.13"
+            },
+            "tournamentStats": [
+              {
+                "isFriendly": false,
+                "leagueId": 40,
+                "leagueName": "First Division A",
+                "seasonName": "2019/2020",
+                "tournamentId": 14160,
+                "goals": "10",
+                "assists": "1",
+                "appearances": "18",
+                "rating": {
+                  "rating": "7.04"
+                }
+              },
+              {
+                "isFriendly": false,
+                "leagueId": 149,
+                "leagueName": "Cup",
+                "seasonName": "2019/2020",
+                "tournamentId": 14430,
+                "goals": "0",
+                "assists": "0",
+                "appearances": "1",
+                "rating": {
+                  "rating": null
+                }
+              },
+              {
+                "isFriendly": false,
+                "leagueId": 73,
+                "leagueName": "Europa League",
+                "seasonName": "2019/2020",
+                "tournamentId": 14007,
+                "goals": "7",
+                "assists": "1",
+                "appearances": "11",
+                "rating": {
+                  "rating": "7.28"
+                }
+              }
+            ],
+            "teamId": 9991,
+            "team": "Gent",
+            "teamGender": "male",
+            "showTeamGender": false,
+            "transferType": null
+          },
+          {
+            "seasonName": "2018/2019",
+            "appearances": "45",
+            "goals": "12",
+            "assists": "2",
+            "rating": {
+              "rating": "6.53"
+            },
+            "tournamentStats": [
+              {
+                "isFriendly": false,
+                "leagueId": 40,
+                "leagueName": "First Division A",
+                "seasonName": "2018/2019",
+                "tournamentId": 12768,
+                "goals": "8",
+                "assists": "2",
+                "appearances": "37",
+                "rating": {
+                  "rating": "6.53"
+                }
+              },
+              {
+                "isFriendly": false,
+                "leagueId": 149,
+                "leagueName": "Cup",
+                "seasonName": "2018/2019",
+                "tournamentId": 13135,
+                "goals": "3",
+                "assists": "0",
+                "appearances": "4",
+                "rating": {
+                  "rating": null
+                }
+              },
+              {
+                "isFriendly": false,
+                "leagueId": 73,
+                "leagueName": "Europa League",
+                "seasonName": "2018/2019",
+                "tournamentId": 12765,
+                "goals": "1",
+                "assists": "0",
+                "appearances": "4",
+                "rating": {
+                  "rating": null
+                }
+              }
+            ],
+            "teamId": 9991,
+            "team": "Gent",
+            "teamGender": "male",
+            "showTeamGender": false,
+            "transferType": null
+          },
+          {
+            "seasonName": "2017/2018",
+            "appearances": "34",
+            "goals": "9",
+            "assists": "3",
+            "rating": {
+              "rating": null
+            },
+            "tournamentStats": [
+              {
+                "isFriendly": false,
+                "leagueId": 40,
+                "leagueName": "First Division A",
+                "seasonName": "2017/2018",
+                "tournamentId": 11513,
+                "goals": "9",
+                "assists": "2",
+                "appearances": "32",
+                "rating": {
+                  "rating": null
+                }
+              },
+              {
+                "isFriendly": false,
+                "leagueId": 149,
+                "leagueName": "Cup",
+                "seasonName": "2017/2018",
+                "tournamentId": 11915,
+                "goals": "0",
+                "assists": "1",
+                "appearances": "2",
+                "rating": {
+                  "rating": null
+                }
+              }
+            ],
+            "teamId": 9991,
+            "team": "Gent",
+            "teamGender": "male",
+            "showTeamGender": false,
+            "transferType": null
+          },
+          {
+            "seasonName": "2016/2017",
+            "appearances": "10",
+            "goals": "0",
+            "assists": "0",
+            "rating": {
+              "rating": null
+            },
+            "tournamentStats": [
+              {
+                "isFriendly": false,
+                "leagueId": 441,
+                "leagueName": "Premier League",
+                "seasonName": "2016/2017",
+                "tournamentId": 10407,
+                "goals": "0",
+                "assists": "0",
+                "appearances": "9",
+                "rating": {
+                  "rating": null
+                }
+              },
+              {
+                "isFriendly": false,
+                "leagueId": 442,
+                "leagueName": "Cup",
+                "seasonName": "2016/2017",
+                "tournamentId": 10911,
+                "goals": "0",
+                "assists": "undefined",
+                "appearances": "1",
+                "rating": {
+                  "rating": null
+                }
+              }
+            ],
+            "teamId": 8688,
+            "team": "Dynamo Kyiv",
+            "teamGender": "male",
+            "showTeamGender": false,
+            "transferType": {
+              "text": "back from loan",
+              "localizationKey": "transfer_type_back_from_loan"
+            }
+          },
+          {
+            "seasonName": "2016/2017",
+            "appearances": "17",
+            "goals": "6",
+            "assists": "1",
+            "rating": {
+              "rating": null
+            },
+            "tournamentStats": [
+              {
+                "isFriendly": false,
+                "leagueId": 441,
+                "leagueName": "Premier League",
+                "seasonName": "2016/2017",
+                "tournamentId": 10407,
+                "goals": "5",
+                "assists": "1",
+                "appearances": "14",
+                "rating": {
+                  "rating": null
+                }
+              },
+              {
+                "isFriendly": false,
+                "leagueId": 442,
+                "leagueName": "Cup",
+                "seasonName": "2016/2017",
+                "tournamentId": 10911,
+                "goals": "1",
+                "assists": "undefined",
+                "appearances": "1",
+                "rating": {
+                  "rating": null
+                }
+              },
+              {
+                "isFriendly": false,
+                "leagueId": 73,
+                "leagueName": "Europa League",
+                "seasonName": "2016/2017",
+                "tournamentId": 10327,
+                "goals": "0",
+                "assists": "0",
+                "appearances": "2",
+                "rating": {
+                  "rating": null
+                }
+              }
+            ],
+            "teamId": 6072,
+            "team": "FC Oleksandriya",
+            "teamGender": "male",
+            "showTeamGender": false,
+            "transferType": {
+              "text": "on loan",
+              "localizationKey": "on_loan"
+            }
+          },
+          {
+            "seasonName": "2015/2016",
+            "appearances": "1",
+            "goals": "0",
+            "assists": "0",
+            "rating": {
+              "rating": null
+            },
+            "tournamentStats": [
+              {
+                "isFriendly": false,
+                "leagueId": 442,
+                "leagueName": "Cup",
+                "seasonName": "2015/2016",
+                "tournamentId": 9820,
+                "goals": "0",
+                "assists": "undefined",
+                "appearances": "1",
+                "rating": {
+                  "rating": null
+                }
+              }
+            ],
+            "teamId": 8688,
+            "team": "Dynamo Kyiv",
+            "teamGender": "male",
+            "showTeamGender": false,
+            "transferType": null
+          },
+          {
+            "seasonName": "2014/2015",
+            "appearances": "23",
+            "goals": "4",
+            "assists": "0",
+            "rating": {
+              "rating": null
+            },
+            "tournamentStats": [
+              {
+                "isFriendly": false,
+                "leagueName": "Persha Liga",
+                "seasonName": "2014/2015",
+                "tournamentId": -1,
+                "goals": "4",
+                "assists": "undefined",
+                "appearances": "23",
+                "rating": {
+                  "rating": null
+                }
+              }
+            ],
+            "teamId": 187935,
+            "team": "Dynamo Kyiv II",
+            "teamGender": "male",
+            "showTeamGender": false,
+            "transferType": null
+          },
+          {
+            "seasonName": "2013/2014",
+            "appearances": "19",
+            "goals": "3",
+            "assists": "0",
+            "rating": {
+              "rating": null
+            },
+            "tournamentStats": [
+              {
+                "isFriendly": false,
+                "leagueName": "Persha Liga",
+                "seasonName": "2013/2014",
+                "tournamentId": -1,
+                "goals": "3",
+                "assists": "undefined",
+                "appearances": "19",
+                "rating": {
+                  "rating": null
+                }
+              }
+            ],
+            "teamId": 187935,
+            "team": "Dynamo Kyiv II",
+            "teamGender": "male",
+            "showTeamGender": false,
+            "transferType": null
+          }
+        ]
+      },
+      "national team": {
+        "teamEntries": [
+          {
+            "participantId": 643690,
+            "teamId": 6718,
+            "team": "Ukraine",
+            "teamGender": "male",
+            "showTeamGender": false,
+            "transferType": null,
+            "startDate": "2018-03-12T00:00:00",
+            "endDate": null,
+            "active": true,
+            "role": null,
+            "appearances": "69",
+            "goals": "18",
+            "assists": "6",
+            "hasUncertainData": false
+          },
+          {
+            "participantId": 643690,
+            "teamId": 6658,
+            "team": "Ukraine U21",
+            "teamGender": "male",
+            "showTeamGender": false,
+            "transferType": null,
+            "startDate": "2016-01-01T00:00:00",
+            "endDate": "2016-06-30T00:00:00",
+            "active": false,
+            "role": null,
+            "appearances": "1",
+            "goals": "0",
+            "assists": "0",
+            "hasUncertainData": false
+          },
+          {
+            "participantId": 643690,
+            "teamId": 5948,
+            "team": "Ukraine U20",
+            "teamGender": "male",
+            "showTeamGender": false,
+            "transferType": null,
+            "startDate": "2015-05-01T00:00:00",
+            "endDate": "2015-06-30T00:00:00",
+            "active": false,
+            "role": null,
+            "appearances": "4",
+            "goals": "1",
+            "assists": "0",
+            "hasUncertainData": false
+          },
+          {
+            "participantId": 643690,
+            "teamId": 6655,
+            "team": "Ukraine U19",
+            "teamGender": "male",
+            "showTeamGender": false,
+            "transferType": null,
+            "startDate": "2013-01-01T00:00:00",
+            "endDate": "2014-10-31T00:00:00",
+            "active": false,
+            "role": null,
+            "appearances": "6",
+            "goals": "0",
+            "assists": "0",
+            "hasUncertainData": false
+          },
+          {
+            "participantId": 643690,
+            "teamId": 74660,
+            "team": "Ukraine U17",
+            "teamGender": "male",
+            "showTeamGender": false,
+            "transferType": null,
+            "startDate": "2012-01-01T00:00:00",
+            "endDate": "2013-06-30T00:00:00",
+            "active": false,
+            "role": null,
+            "appearances": "1",
+            "goals": "0",
+            "assists": "0",
+            "hasUncertainData": false
+          }
+        ],
+        "seasonEntries": [
+          {
+            "seasonName": "2026",
+            "appearances": "6",
+            "goals": "1",
+            "assists": "0",
+            "rating": {
+              "rating": "6.19"
+            },
+            "tournamentStats": [
+              {
+                "isFriendly": false,
+                "leagueId": 10195,
+                "leagueName": "World Cup Qualification UEFA",
+                "seasonName": "2026",
+                "tournamentId": 24488,
+                "goals": "0",
+                "assists": "0",
+                "appearances": "3",
+                "rating": {
+                  "rating": "6.36"
+                }
+              },
+              {
+                "isFriendly": true,
+                "leagueId": 114,
+                "leagueName": "Friendlies",
+                "seasonName": "2026",
+                "tournamentId": 29822,
+                "goals": "1",
+                "assists": "0",
+                "appearances": "3",
+                "rating": {
+                  "rating": "6.02"
+                }
+              }
+            ],
+            "teamId": 6718,
+            "team": "Ukraine",
+            "teamGender": "male",
+            "showTeamGender": false,
+            "transferType": null
+          },
+          {
+            "seasonName": "2025",
+            "appearances": "2",
+            "goals": "0",
+            "assists": "0",
+            "rating": {
+              "rating": "5.91"
+            },
+            "tournamentStats": [
+              {
+                "isFriendly": true,
+                "leagueId": 114,
+                "leagueName": "Friendlies",
+                "seasonName": "2025",
+                "tournamentId": 24481,
+                "goals": "0",
+                "assists": "0",
+                "appearances": "2",
+                "rating": {
+                  "rating": "5.91"
+                }
+              }
+            ],
+            "teamId": 6718,
+            "team": "Ukraine",
+            "teamGender": "male",
+            "showTeamGender": false,
+            "transferType": null
+          },
+          {
+            "seasonName": "2024",
+            "appearances": "19",
+            "goals": "4",
+            "assists": "2",
+            "rating": {
+              "rating": "6.82"
+            },
+            "tournamentStats": [
+              {
+                "isFriendly": false,
+                "leagueId": 50,
+                "leagueName": "EURO",
+                "seasonName": "2024",
+                "tournamentId": 18307,
+                "goals": "1",
+                "assists": "0",
+                "appearances": "3",
+                "rating": {
+                  "rating": "6.73"
+                }
+              },
+              {
+                "isFriendly": false,
+                "leagueId": 10607,
+                "leagueName": "EURO Qualification",
+                "seasonName": "2024",
+                "tournamentId": -1,
+                "goals": "1",
+                "assists": "2",
+                "appearances": "6",
+                "rating": {
+                  "rating": null
+                }
+              },
+              {
+                "isFriendly": true,
+                "leagueId": 114,
+                "leagueName": "Friendlies",
+                "seasonName": "2024",
+                "tournamentId": 22275,
+                "goals": "1",
+                "assists": "0",
+                "appearances": "2",
+                "rating": {
+                  "rating": "6.96"
+                }
+              },
+              {
+                "isFriendly": false,
+                "leagueId": 9806,
+                "leagueName": "UEFA Nations League A",
+                "seasonName": "2024/2025",
+                "tournamentId": 22886,
+                "goals": "1",
+                "assists": "0",
+                "appearances": "8",
+                "rating": {
+                  "rating": null
+                }
+              }
+            ],
+            "teamId": 6718,
+            "team": "Ukraine",
+            "teamGender": "male",
+            "showTeamGender": false,
+            "transferType": null
+          },
+          {
+            "seasonName": "2022",
+            "appearances": "14",
+            "goals": "4",
+            "assists": "1",
+            "rating": {
+              "rating": "7.06"
+            },
+            "tournamentStats": [
+              {
+                "isFriendly": false,
+                "leagueId": 10195,
+                "leagueName": "World Cup Qualification UEFA",
+                "seasonName": "2022",
+                "tournamentId": 17272,
+                "goals": "4",
+                "assists": "1",
+                "appearances": "10",
+                "rating": {
+                  "rating": "7.06"
+                }
+              },
+              {
+                "isFriendly": false,
+                "leagueId": 9806,
+                "leagueName": "UEFA Nations League A",
+                "seasonName": "2022/2023",
+                "tournamentId": 17161,
+                "goals": "0",
+                "assists": "0",
+                "appearances": "4",
+                "rating": {
+                  "rating": null
+                }
+              }
+            ],
+            "teamId": 6718,
+            "team": "Ukraine",
+            "teamGender": "male",
+            "showTeamGender": false,
+            "transferType": null
+          },
+          {
+            "seasonName": "2021",
+            "appearances": "4",
+            "goals": "1",
+            "assists": "0",
+            "rating": {
+              "rating": "7.54"
+            },
+            "tournamentStats": [
+              {
+                "isFriendly": true,
+                "leagueId": 114,
+                "leagueName": "Friendlies",
+                "seasonName": "2021",
+                "tournamentId": 15943,
+                "goals": "1",
+                "assists": "0",
+                "appearances": "4",
+                "rating": {
+                  "rating": "7.54"
+                }
+              }
+            ],
+            "teamId": 6718,
+            "team": "Ukraine",
+            "teamGender": "male",
+            "showTeamGender": false,
+            "transferType": null
+          },
+          {
+            "seasonName": "2020",
+            "appearances": "19",
+            "goals": "7",
+            "assists": "2",
+            "rating": {
+              "rating": "6.82"
+            },
+            "tournamentStats": [
+              {
+                "isFriendly": false,
+                "leagueId": 50,
+                "leagueName": "EURO",
+                "seasonName": "2020",
+                "tournamentId": 12715,
+                "goals": "2",
+                "assists": "1",
+                "appearances": "5",
+                "rating": {
+                  "rating": "6.85"
+                }
+              },
+              {
+                "isFriendly": false,
+                "leagueId": 10607,
+                "leagueName": "EURO Qualification",
+                "seasonName": "2020",
+                "tournamentId": -1,
+                "goals": "4",
+                "assists": "1",
+                "appearances": "7",
+                "rating": {
+                  "rating": null
+                }
+              },
+              {
+                "isFriendly": true,
+                "leagueId": 114,
+                "leagueName": "Friendlies",
+                "seasonName": "2020",
+                "tournamentId": 14773,
+                "goals": "0",
+                "assists": "0",
+                "appearances": "2",
+                "rating": {
+                  "rating": "6.77"
+                }
+              },
+              {
+                "isFriendly": false,
+                "leagueId": 9806,
+                "leagueName": "UEFA Nations League A",
+                "seasonName": "2020/2021",
+                "tournamentId": 15023,
+                "goals": "1",
+                "assists": "0",
+                "appearances": "5",
+                "rating": {
+                  "rating": "6.64"
+                }
+              }
+            ],
+            "teamId": 6718,
+            "team": "Ukraine",
+            "teamGender": "male",
+            "showTeamGender": false,
+            "transferType": null
+          },
+          {
+            "seasonName": "2019",
+            "appearances": "1",
+            "goals": "1",
+            "assists": "0",
+            "rating": {
+              "rating": null
+            },
+            "tournamentStats": [
+              {
+                "isFriendly": true,
+                "leagueId": 114,
+                "leagueName": "Friendlies",
+                "seasonName": "2019",
+                "tournamentId": 13365,
+                "goals": "1",
+                "assists": "0",
+                "appearances": "1",
+                "rating": {
+                  "rating": null
+                }
+              }
+            ],
+            "teamId": 6718,
+            "team": "Ukraine",
+            "teamGender": "male",
+            "showTeamGender": false,
+            "transferType": null
+          },
+          {
+            "seasonName": "2018",
+            "appearances": "4",
+            "goals": "0",
+            "assists": "1",
+            "rating": {
+              "rating": null
+            },
+            "tournamentStats": [
+              {
+                "isFriendly": true,
+                "leagueId": 114,
+                "leagueName": "Friendlies",
+                "seasonName": "2018",
+                "tournamentId": 11352,
+                "goals": "0",
+                "assists": "0",
+                "appearances": "1",
+                "rating": {
+                  "rating": null
+                }
+              },
+              {
+                "isFriendly": false,
+                "leagueId": 9806,
+                "leagueName": "UEFA Nations League A",
+                "seasonName": "2018/2019",
+                "tournamentId": 12469,
+                "goals": "0",
+                "assists": "1",
+                "appearances": "3",
+                "rating": {
+                  "rating": null
+                }
+              }
+            ],
+            "teamId": 6718,
+            "team": "Ukraine",
+            "teamGender": "male",
+            "showTeamGender": false,
+            "transferType": null
+          },
+          {
+            "seasonName": "2017",
+            "appearances": "1",
+            "goals": "0",
+            "assists": "0",
+            "rating": {
+              "rating": null
+            },
+            "tournamentStats": [
+              {
+                "isFriendly": false,
+                "leagueId": 288,
+                "leagueName": "EURO U21",
+                "seasonName": "2017",
+                "tournamentId": 11059,
+                "goals": "0",
+                "assists": "0",
+                "appearances": "1",
+                "rating": {
+                  "rating": null
+                }
+              }
+            ],
+            "teamId": 6658,
+            "team": "Ukraine U21",
+            "teamGender": "male",
+            "showTeamGender": false,
+            "transferType": null
+          },
+          {
+            "seasonName": "2015",
+            "appearances": "4",
+            "goals": "1",
+            "assists": "0",
+            "rating": {
+              "rating": null
+            },
+            "tournamentStats": [
+              {
+                "isFriendly": false,
+                "leagueName": "FIFA U20 World Cup",
+                "seasonName": "2015",
+                "tournamentId": -1,
+                "goals": "1",
+                "assists": "0",
+                "appearances": "4",
+                "rating": {
+                  "rating": null
+                }
+              }
+            ],
+            "teamId": 5948,
+            "team": "Ukraine U20",
+            "teamGender": "male",
+            "showTeamGender": false,
+            "transferType": null
+          },
+          {
+            "seasonName": "2014",
+            "appearances": "6",
+            "goals": "0",
+            "assists": "0",
+            "rating": {
+              "rating": null
+            },
+            "tournamentStats": [
+              {
+                "isFriendly": false,
+                "leagueId": 287,
+                "leagueName": "UEFA U19 Championship",
+                "seasonName": "2014",
+                "tournamentId": -1,
+                "goals": "0",
+                "assists": "undefined",
+                "appearances": "6",
+                "rating": {
+                  "rating": null
+                }
+              }
+            ],
+            "teamId": 6655,
+            "team": "Ukraine U19",
+            "teamGender": "male",
+            "showTeamGender": false,
+            "transferType": null
+          },
+          {
+            "seasonName": "2012",
+            "appearances": "1",
+            "goals": "0",
+            "assists": "0",
+            "rating": {
+              "rating": null
+            },
+            "tournamentStats": [
+              {
+                "isFriendly": false,
+                "leagueId": 301,
+                "leagueName": "UEFA U17 Championship",
+                "seasonName": "2012",
+                "tournamentId": -1,
+                "goals": "0",
+                "assists": "undefined",
+                "appearances": "1",
+                "rating": {
+                  "rating": null
+                }
+              }
+            ],
+            "teamId": 74660,
+            "team": "Ukraine U17",
+            "teamGender": "male",
+            "showTeamGender": false,
+            "transferType": null
+          }
+        ]
+      }
+    },
+    "fullCareer": true
+  },
+  "traits": {
+    "key": "stats_comparison_forwards",
+    "title": "Stats compared to other forwards",
+    "items": [
+      {
+        "key": "chances_created",
+        "title": "Chances created",
+        "value": 0.48
+      },
+      {
+        "key": "aerials_won",
+        "title": "Aerial duels",
+        "value": 0.7
+      },
+      {
+        "key": "defensive_actions",
+        "title": "Defensive actions",
+        "value": 0.11
+      },
+      {
+        "key": "goals",
+        "title": "Goals",
+        "value": 0.89
+      },
+      {
+        "key": "shot_attempts",
+        "title": "Shot attempts",
+        "value": 0.74
+      },
+      {
+        "key": "touches",
+        "title": "Touches",
+        "value": 0.2
+      }
+    ]
+  },
+  "meta": {
+    "seopath": "roman-yaremchuk",
+    "pageurl": "/players/643690/roman-yaremchuk",
+    "faqJSONLD": {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "How old is Roman Yaremchuk?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Roman Yaremchuk is 30 years old. Born on Mon Nov 27 1995."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How tall is Roman Yaremchuk?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Roman Yaremchuk is 191 cm tall. Or 6 ft 3 in."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "When was Roman Yaremchuk born?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Roman Yaremchuk was born Mon Nov 27 1995 and is now 30 years old."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Which is Roman Yaremchuk's preferred foot?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Roman Yaremchuk's preferred foot is right."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How much is Roman Yaremchuk's transfer value?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Roman Yaremchuk's transfer value is estimated to be around €1.9m."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Where is Roman Yaremchuk from?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Roman Yaremchuk is from Ukraine."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How many goals has Roman Yaremchuk scored this season?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Roman Yaremchuk has scored 4 goals in the Ligue 1."
+          }
+        }
+      ]
+    },
+    "personJSONLD": {
+      "@context": "https://schema.org",
+      "@type": "Person",
+      "name": "Roman Yaremchuk",
+      "birthDate": "1995-11-27T00:00:00.000Z",
+      "url": "https://www.fotmob.com/players/643690/roman-yaremchuk",
+      "nationality": {
+        "@type": "Country",
+        "name": "Ukraine"
+      },
+      "affiliation": {
+        "@type": "SportsTeam",
+        "name": "Lyon (on loan)"
+      },
+      "gender": "https://schema.org/Male",
+      "height": {
+        "@type": "QuantitativeValue",
+        "unitText": "cm",
+        "value": "191"
+      },
+      "weight": {
+        "@type": "QuantitativeValue",
+        "unitText": "kg",
+        "value": "78"
+      }
+    },
+    "breadcrumbJSONLD": {
+      "@context": "https://schema.org",
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://www.fotmob.com"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Ligue 1 2025/2026",
+          "item": "https://www.fotmob.com/leagues/53/overview/ligue-1-20252026"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "Lyon (on loan)",
+          "item": "https://www.fotmob.com/teams/9748/overview/lyon-loan"
+        },
+        {
+          "@type": "ListItem",
+          "position": 4,
+          "name": "Roman Yaremchuk",
+          "item": "https://www.fotmob.com/leagues/643690/overview/roman-yaremchuk"
+        }
+      ]
+    }
+  },
+  "coachStats": null,
+  "statSeasons": [
+    {
+      "seasonName": "2025/2026",
+      "tournaments": [
+        {
+          "name": "Ligue 1",
+          "tournamentId": 53,
+          "entryId": "0-0",
+          "hasDeepStats": true
+        },
+        {
+          "name": "Super League",
+          "tournamentId": 135,
+          "entryId": "0-1",
+          "hasDeepStats": true
+        },
+        {
+          "name": "Cup",
+          "tournamentId": 145,
+          "entryId": "0-2",
+          "hasDeepStats": false
+        },
+        {
+          "name": "Coupe de France",
+          "tournamentId": 134,
+          "entryId": "0-3",
+          "hasDeepStats": true
+        },
+        {
+          "name": "Champions League",
+          "tournamentId": 42,
+          "entryId": "0-4",
+          "hasDeepStats": true
+        },
+        {
+          "name": "Europa League",
+          "tournamentId": 73,
+          "entryId": "0-5",
+          "hasDeepStats": true
+        },
+        {
+          "name": "World Cup UEFA qualification",
+          "tournamentId": 10195,
+          "entryId": "0-6",
+          "hasDeepStats": true
+        }
+      ]
+    },
+    {
+      "seasonName": "2024/2025",
+      "tournaments": [
+        {
+          "name": "Super League",
+          "tournamentId": 135,
+          "entryId": "1-0",
+          "hasDeepStats": true
+        },
+        {
+          "name": "Europa League",
+          "tournamentId": 73,
+          "entryId": "1-1",
+          "hasDeepStats": true
+        },
+        {
+          "name": "EURO",
+          "tournamentId": 50,
+          "entryId": "1-2",
+          "hasDeepStats": true
+        },
+        {
+          "name": "UEFA Nations League B",
+          "tournamentId": 9807,
+          "entryId": "1-3",
+          "hasDeepStats": true
+        }
+      ]
+    },
+    {
+      "seasonName": "2023/2024",
+      "tournaments": [
+        {
+          "name": "LaLiga",
+          "tournamentId": 87,
+          "entryId": "2-0",
+          "hasDeepStats": true
+        },
+        {
+          "name": "Belgian Pro League",
+          "tournamentId": 40,
+          "entryId": "2-1",
+          "hasDeepStats": true
+        },
+        {
+          "name": "Copa del Rey",
+          "tournamentId": 138,
+          "entryId": "2-2",
+          "hasDeepStats": true
+        },
+        {
+          "name": "EURO Qualification qualification",
+          "tournamentId": 10607,
+          "entryId": "2-3",
+          "hasDeepStats": true
+        }
+      ]
+    },
+    {
+      "seasonName": "2022/2023",
+      "tournaments": [
+        {
+          "name": "Liga Portugal",
+          "tournamentId": 61,
+          "entryId": "3-0",
+          "hasDeepStats": true
+        },
+        {
+          "name": "Belgian Pro League",
+          "tournamentId": 40,
+          "entryId": "3-1",
+          "hasDeepStats": true
+        },
+        {
+          "name": "Champions League",
+          "tournamentId": 42,
+          "entryId": "3-2",
+          "hasDeepStats": true
+        },
+        {
+          "name": "UEFA Nations League B",
+          "tournamentId": 9807,
+          "entryId": "3-3",
+          "hasDeepStats": true
+        },
+        {
+          "name": "Champions League Qualification qualification",
+          "tournamentId": 10611,
+          "entryId": "3-4",
+          "hasDeepStats": true
+        },
+        {
+          "name": "EURO Qualification playoff",
+          "tournamentId": 10607,
+          "entryId": "3-5",
+          "hasDeepStats": true
+        }
+      ]
+    },
+    {
+      "seasonName": "2021/2022",
+      "tournaments": [
+        {
+          "name": "Liga Portugal",
+          "tournamentId": 61,
+          "entryId": "4-0",
+          "hasDeepStats": true
+        },
+        {
+          "name": "Champions League",
+          "tournamentId": 42,
+          "entryId": "4-1",
+          "hasDeepStats": true
+        },
+        {
+          "name": "World Cup UEFA qualification",
+          "tournamentId": 10195,
+          "entryId": "4-2",
+          "hasDeepStats": true
+        },
+        {
+          "name": "Champions League Qualification qualification",
+          "tournamentId": 10611,
+          "entryId": "4-3",
+          "hasDeepStats": true
+        }
+      ]
+    },
+    {
+      "seasonName": "2020/2021",
+      "tournaments": [
+        {
+          "name": "First Division A",
+          "tournamentId": 40,
+          "entryId": "5-0",
+          "hasDeepStats": true
+        },
+        {
+          "name": "Europa League",
+          "tournamentId": 73,
+          "entryId": "5-1",
+          "hasDeepStats": true
+        },
+        {
+          "name": "Champions League Qualification qualification",
+          "tournamentId": 10611,
+          "entryId": "5-2",
+          "hasDeepStats": true
+        },
+        {
+          "name": "UEFA Nations League A",
+          "tournamentId": 9806,
+          "entryId": "5-3",
+          "hasDeepStats": true
+        },
+        {
+          "name": "EURO",
+          "tournamentId": 50,
+          "entryId": "5-4",
+          "hasDeepStats": true
+        }
+      ]
+    },
+    {
+      "seasonName": "2019/2020",
+      "tournaments": [
+        {
+          "name": "First Division A",
+          "tournamentId": 40,
+          "entryId": "6-0",
+          "hasDeepStats": true
+        },
+        {
+          "name": "Europa League",
+          "tournamentId": 73,
+          "entryId": "6-1",
+          "hasDeepStats": true
+        },
+        {
+          "name": "EURO Qualification qualification",
+          "tournamentId": 10607,
+          "entryId": "6-2",
+          "hasDeepStats": true
+        }
+      ]
+    },
+    {
+      "seasonName": "2018/2019",
+      "tournaments": [
+        {
+          "name": "First Division A",
+          "tournamentId": 40,
+          "entryId": "7-0",
+          "hasDeepStats": true
+        },
+        {
+          "name": "UEFA Nations League B",
+          "tournamentId": 9807,
+          "entryId": "7-1",
+          "hasDeepStats": false
+        }
+      ]
+    },
+    {
+      "seasonName": "2017/2018",
+      "tournaments": [
+        {
+          "name": "First Division A",
+          "tournamentId": 40,
+          "entryId": "8-0",
+          "hasDeepStats": true
+        }
+      ]
+    }
+  ],
+  "firstSeasonStats": {
+    "sectionOrder": [
+      "top-stat-card",
+      "shotmap",
+      "stats-section"
+    ],
+    "shotmap": [
+      {
+        "id": 2906383091,
+        "playerName": "Roman Yaremchuk",
+        "eventType": "AttemptSaved",
+        "shotType": "RightFoot",
+        "situation": "FastBreak",
+        "teamId": 9748,
+        "playerId": 643690,
+        "x": 98.9210526314,
+        "y": 21.1266242072,
+        "min": 45,
+        "minAdded": 7,
+        "period": "FirstHalf",
+        "isOwnGoal": false,
+        "isBlocked": false,
+        "isOnTarget": true,
+        "isSavedOffLine": false,
+        "isFromInsideBox": true,
+        "blockedX": 102.8189655174,
+        "blockedY": 29.21142857,
+        "goalCrossedY": 31.255,
+        "goalCrossedZ": 1.059473679,
+        "expectedGoals": 0.136241763830185,
+        "expectedGoalsOnTarget": 0.318782299757004,
+        "onGoalShot": {
+          "x": 1.72619047619048,
+          "y": 0.280284042063492,
+          "zoomRatio": 1
+        },
+        "box": "InsideBox",
+        "homeTeamId": 8592,
+        "awayTeamId": 9748,
+        "homeTeamName": "Marseille",
+        "awayTeamName": "Lyon",
+        "homeScore": 3,
+        "awayScore": 2,
+        "matchId": 4830668,
+        "matchDate": "2026-03-01T19:45:00Z",
+        "teamColor": "#0160A0",
+        "teamColorDark": "#ffffff"
+      },
+      {
+        "id": 2912205229,
+        "playerName": "Roman Yaremchuk",
+        "eventType": "Miss",
+        "shotType": "Header",
+        "situation": "RegularPlay",
+        "teamId": 9748,
+        "playerId": 643690,
+        "x": 96.7982456132,
+        "y": 31.4075,
+        "min": 65,
+        "period": "SecondHalf",
+        "isOwnGoal": false,
+        "isBlocked": false,
+        "isOnTarget": false,
+        "isSavedOffLine": false,
+        "isFromInsideBox": true,
+        "blockedX": 101.3965517244,
+        "blockedY": 33.46625,
+        "goalCrossedY": 38.452380954,
+        "goalCrossedZ": 3.3768275888,
+        "expectedGoals": 0.0760059133172035,
+        "expectedGoalsOnTarget": 0,
+        "onGoalShot": {
+          "x": 0.107040844577068,
+          "y": 0.677248677248677,
+          "zoomRatio": 0.758107997130446
+        },
+        "box": "InsideBox",
+        "homeTeamId": 9746,
+        "awayTeamId": 9748,
+        "homeTeamName": "Le Havre",
+        "awayTeamName": "Lyon",
+        "homeScore": 0,
+        "awayScore": 0,
+        "matchId": 4830684,
+        "matchDate": "2026-03-15T16:15:00Z",
+        "teamColor": "#0160A0",
+        "teamColorDark": "#ffffff"
+      },
+      {
+        "id": 2912219397,
+        "playerName": "Roman Yaremchuk",
+        "eventType": "Miss",
+        "shotType": "Header",
+        "situation": "RegularPlay",
+        "teamId": 9748,
+        "playerId": 643690,
+        "x": 96.7017543851,
+        "y": 32.3225,
+        "min": 78,
+        "period": "SecondHalf",
+        "isOwnGoal": false,
+        "isBlocked": false,
+        "isOnTarget": false,
+        "isSavedOffLine": false,
+        "isFromInsideBox": true,
+        "goalCrossedY": 32.0175,
+        "goalCrossedZ": 5.7925517344,
+        "expectedGoals": 0.0842495411634445,
+        "expectedGoalsOnTarget": 0,
+        "onGoalShot": {
+          "x": 1.2317882626187,
+          "y": 0.677248677248677,
+          "zoomRatio": 0.441946851298199
+        },
+        "box": "InsideBox",
+        "homeTeamId": 9746,
+        "awayTeamId": 9748,
+        "homeTeamName": "Le Havre",
+        "awayTeamName": "Lyon",
+        "homeScore": 0,
+        "awayScore": 0,
+        "matchId": 4830684,
+        "matchDate": "2026-03-15T16:15:00Z",
+        "teamColor": "#0160A0",
+        "teamColorDark": "#ffffff"
+      },
+      {
+        "id": 2923393505,
+        "playerName": "Roman Yaremchuk",
+        "eventType": "AttemptSaved",
+        "shotType": "RightFoot",
+        "situation": "RegularPlay",
+        "teamId": 9748,
+        "playerId": 643690,
+        "x": 85.6014705876,
+        "y": 46.452993627,
+        "min": 3,
+        "period": "FirstHalf",
+        "isOwnGoal": false,
+        "isBlocked": true,
+        "isOnTarget": true,
+        "isSavedOffLine": false,
+        "isFromInsideBox": false,
+        "blockedX": 88.2852941176,
+        "blockedY": 44.8415286581,
+        "goalCrossedY": 33.8475,
+        "goalCrossedZ": 1.219999994,
+        "expectedGoals": 0.0333962813019752,
+        "expectedGoalsOnTarget": 0,
+        "onGoalShot": {
+          "x": 1.04034391534392,
+          "y": 0.322751321164021,
+          "zoomRatio": 1
+        },
+        "box": "OutsideBox",
+        "homeTeamId": 9748,
+        "awayTeamId": 8689,
+        "homeTeamName": "Lyon",
+        "awayTeamName": "Lorient",
+        "homeScore": 2,
+        "awayScore": 0,
+        "matchId": 4830713,
+        "matchDate": "2026-04-12T18:45:00Z",
+        "teamColor": "#0160A0",
+        "teamColorDark": "#ffffff"
+      },
+      {
+        "id": 2923398253,
+        "playerName": "Roman Yaremchuk",
+        "eventType": "Miss",
+        "shotType": "Header",
+        "situation": "RegularPlay",
+        "teamId": 9748,
+        "playerId": 643690,
+        "x": 98.9210526314,
+        "y": 30.95,
+        "min": 10,
+        "period": "FirstHalf",
+        "isOwnGoal": false,
+        "isBlocked": false,
+        "isOnTarget": false,
+        "isSavedOffLine": false,
+        "isFromInsideBox": true,
+        "goalCrossedY": 36.745,
+        "goalCrossedZ": 5.0626206976,
+        "expectedGoals": 0.153677225112915,
+        "expectedGoalsOnTarget": 0,
+        "onGoalShot": {
+          "x": 0.632789472075416,
+          "y": 0.677248677248677,
+          "zoomRatio": 0.505666956486312
+        },
+        "box": "InsideBox",
+        "homeTeamId": 9748,
+        "awayTeamId": 8689,
+        "homeTeamName": "Lyon",
+        "awayTeamName": "Lorient",
+        "homeScore": 2,
+        "awayScore": 0,
+        "matchId": 4830713,
+        "matchDate": "2026-04-12T18:45:00Z",
+        "teamColor": "#0160A0",
+        "teamColorDark": "#ffffff"
+      },
+      {
+        "id": 2923421625,
+        "playerName": "Roman Yaremchuk",
+        "eventType": "Miss",
+        "shotType": "RightFoot",
+        "situation": "ThrowInSetPiece",
+        "teamId": 9748,
+        "playerId": 643690,
+        "x": 102.7241379312,
+        "y": 43.4402547721,
+        "min": 41,
+        "period": "FirstHalf",
+        "isOwnGoal": false,
+        "isBlocked": false,
+        "isOnTarget": false,
+        "isSavedOffLine": false,
+        "isFromInsideBox": true,
+        "goalCrossedY": 42.0615625,
+        "goalCrossedZ": 0.4430526294,
+        "expectedGoals": 0.0536516346037388,
+        "expectedGoalsOnTarget": 0,
+        "onGoalShot": {
+          "x": 0,
+          "y": 0.0549586546528667,
+          "zoomRatio": 0.468891731596698
+        },
+        "box": "InsideBox",
+        "homeTeamId": 9748,
+        "awayTeamId": 8689,
+        "homeTeamName": "Lyon",
+        "awayTeamName": "Lorient",
+        "homeScore": 2,
+        "awayScore": 0,
+        "matchId": 4830713,
+        "matchDate": "2026-04-12T18:45:00Z",
+        "teamColor": "#0160A0",
+        "teamColorDark": "#ffffff"
+      },
+      {
+        "id": 2923438125,
+        "playerName": "Roman Yaremchuk",
+        "eventType": "Goal",
+        "shotType": "Header",
+        "situation": "RegularPlay",
+        "teamId": 9748,
+        "playerId": 643690,
+        "x": 98.3421052628,
+        "y": 34.4575,
+        "min": 49,
+        "period": "SecondHalf",
+        "isOwnGoal": false,
+        "isBlocked": false,
+        "isOnTarget": true,
+        "isSavedOffLine": false,
+        "isFromInsideBox": true,
+        "goalCrossedY": 36.66875,
+        "goalCrossedZ": 0.2439999988,
+        "expectedGoals": 0.260848492383957,
+        "expectedGoalsOnTarget": 0.404662013053894,
+        "onGoalShot": {
+          "x": 0.293981481481481,
+          "y": 0.0645502642328042,
+          "zoomRatio": 1
+        },
+        "box": "InsideBox",
+        "homeTeamId": 9748,
+        "awayTeamId": 8689,
+        "homeTeamName": "Lyon",
+        "awayTeamName": "Lorient",
+        "homeScore": 2,
+        "awayScore": 0,
+        "matchId": 4830713,
+        "matchDate": "2026-04-12T18:45:00Z",
+        "teamColor": "#0160A0",
+        "teamColorDark": "#ffffff"
+      },
+      {
+        "id": 2923439715,
+        "playerName": "Roman Yaremchuk",
+        "eventType": "AttemptSaved",
+        "shotType": "RightFoot",
+        "situation": "RegularPlay",
+        "teamId": 9748,
+        "playerId": 643690,
+        "x": 90.8,
+        "y": 45.2619108239,
+        "min": 54,
+        "period": "SecondHalf",
+        "isOwnGoal": false,
+        "isBlocked": true,
+        "isOnTarget": true,
+        "isSavedOffLine": false,
+        "isFromInsideBox": true,
+        "blockedX": 93,
+        "blockedY": 44.0007643265,
+        "goalCrossedY": 37.27875,
+        "goalCrossedZ": 1.219999994,
+        "expectedGoals": 0.0297358240932226,
+        "expectedGoalsOnTarget": 0,
+        "onGoalShot": {
+          "x": 0.13260582010582,
+          "y": 0.322751321164021,
+          "zoomRatio": 1
+        },
+        "box": "InsideBox",
+        "homeTeamId": 9748,
+        "awayTeamId": 8689,
+        "homeTeamName": "Lyon",
+        "awayTeamName": "Lorient",
+        "homeScore": 2,
+        "awayScore": 0,
+        "matchId": 4830713,
+        "matchDate": "2026-04-12T18:45:00Z",
+        "teamColor": "#0160A0",
+        "teamColorDark": "#ffffff"
+      },
+      {
+        "id": 2928692475,
+        "playerName": "Roman Yaremchuk",
+        "eventType": "Miss",
+        "shotType": "LeftFoot",
+        "situation": "RegularPlay",
+        "teamId": 9748,
+        "playerId": 643690,
+        "x": 95.5438596479,
+        "y": 35.14375,
+        "min": 14,
+        "period": "FirstHalf",
+        "isOwnGoal": false,
+        "isBlocked": false,
+        "isOnTarget": false,
+        "isSavedOffLine": false,
+        "isFromInsideBox": true,
+        "goalCrossedY": 41.425625,
+        "goalCrossedZ": 1.7850526228,
+        "expectedGoals": 0.185913980007172,
+        "expectedGoalsOnTarget": 0,
+        "onGoalShot": {
+          "x": 0,
+          "y": 0.240390892726202,
+          "zoomRatio": 0.509048059927616
+        },
+        "box": "InsideBox",
+        "homeTeamId": 9748,
+        "awayTeamId": 8583,
+        "homeTeamName": "Lyon",
+        "awayTeamName": "Auxerre",
+        "homeScore": 3,
+        "awayScore": 2,
+        "matchId": 4830732,
+        "matchDate": "2026-04-25T13:00:00Z",
+        "teamColor": "#0160A0",
+        "teamColorDark": "#ffffff"
+      },
+      {
+        "id": 2928698241,
+        "playerName": "Roman Yaremchuk",
+        "eventType": "Goal",
+        "shotType": "RightFoot",
+        "situation": "RegularPlay",
+        "teamId": 9748,
+        "playerId": 643690,
+        "x": 100.6379310348,
+        "y": 34.7625,
+        "min": 19,
+        "period": "FirstHalf",
+        "isOwnGoal": false,
+        "isBlocked": false,
+        "isOnTarget": true,
+        "isSavedOffLine": false,
+        "isFromInsideBox": true,
+        "goalCrossedY": 32.24625,
+        "goalCrossedZ": 0.5265263132,
+        "expectedGoals": 0.484803706407547,
+        "expectedGoalsOnTarget": 0.966902911663056,
+        "onGoalShot": {
+          "x": 1.46395502645503,
+          "y": 0.139292675449735,
+          "zoomRatio": 1
+        },
+        "box": "InsideBox",
+        "homeTeamId": 9748,
+        "awayTeamId": 8583,
+        "homeTeamName": "Lyon",
+        "awayTeamName": "Auxerre",
+        "homeScore": 3,
+        "awayScore": 2,
+        "matchId": 4830732,
+        "matchDate": "2026-04-25T13:00:00Z",
+        "teamColor": "#0160A0",
+        "teamColorDark": "#ffffff"
+      },
+      {
+        "id": 2928801069,
+        "playerName": "Roman Yaremchuk",
+        "eventType": "Goal",
+        "shotType": "RightFoot",
+        "situation": "RegularPlay",
+        "teamId": 9748,
+        "playerId": 643690,
+        "x": 96.7982456132,
+        "y": 33.46625,
+        "min": 71,
+        "period": "SecondHalf",
+        "isOwnGoal": false,
+        "isBlocked": false,
+        "isOnTarget": true,
+        "isSavedOffLine": false,
+        "isFromInsideBox": true,
+        "goalCrossedY": 36.745,
+        "goalCrossedZ": 0.5265263132,
+        "expectedGoals": 0.226269826292992,
+        "expectedGoalsOnTarget": 0.805435061454773,
+        "onGoalShot": {
+          "x": 0.273809523809523,
+          "y": 0.139292675449735,
+          "zoomRatio": 1
+        },
+        "box": "InsideBox",
+        "homeTeamId": 9748,
+        "awayTeamId": 8583,
+        "homeTeamName": "Lyon",
+        "awayTeamName": "Auxerre",
+        "homeScore": 3,
+        "awayScore": 2,
+        "matchId": 4830732,
+        "matchDate": "2026-04-25T13:00:00Z",
+        "teamColor": "#0160A0",
+        "teamColorDark": "#ffffff"
+      },
+      {
+        "id": 2933218875,
+        "playerName": "Roman Yaremchuk",
+        "eventType": "Goal",
+        "shotType": "Header",
+        "situation": "RegularPlay",
+        "teamId": 9748,
+        "playerId": 643690,
+        "x": 96.8947368413,
+        "y": 35.75375,
+        "min": 37,
+        "period": "FirstHalf",
+        "isOwnGoal": false,
+        "isBlocked": false,
+        "isOnTarget": true,
+        "isSavedOffLine": false,
+        "isFromInsideBox": true,
+        "goalCrossedY": 31.78875,
+        "goalCrossedZ": 1.3419999934,
+        "expectedGoals": 0.212553188204765,
+        "expectedGoalsOnTarget": 0.819007992744446,
+        "onGoalShot": {
+          "x": 1.58498677248677,
+          "y": 0.355026453280423,
+          "zoomRatio": 1
+        },
+        "box": "InsideBox",
+        "homeTeamId": 9748,
+        "awayTeamId": 9851,
+        "homeTeamName": "Lyon",
+        "awayTeamName": "Rennes",
+        "homeScore": 4,
+        "awayScore": 2,
+        "matchId": 4830739,
+        "matchDate": "2026-05-03T18:45:00Z",
+        "teamColor": "#0160A0",
+        "teamColorDark": "#ffffff"
+      },
+      {
+        "id": 2933256671,
+        "playerName": "Roman Yaremchuk",
+        "eventType": "AttemptSaved",
+        "shotType": "Header",
+        "situation": "RegularPlay",
+        "teamId": 9748,
+        "playerId": 643690,
+        "x": 95.7368421041,
+        "y": 40.217380953,
+        "min": 63,
+        "period": "SecondHalf",
+        "isOwnGoal": false,
+        "isBlocked": false,
+        "isOnTarget": true,
+        "isSavedOffLine": false,
+        "isFromInsideBox": true,
+        "blockedX": 104.4310344828,
+        "blockedY": 35.22,
+        "goalCrossedY": 34.915,
+        "goalCrossedZ": 1.1814736784,
+        "expectedGoals": 0.0452526398003101,
+        "expectedGoalsOnTarget": 0.0241391025483608,
+        "onGoalShot": {
+          "x": 0.757936507936506,
+          "y": 0.312559174179894,
+          "zoomRatio": 1
+        },
+        "box": "InsideBox",
+        "homeTeamId": 9748,
+        "awayTeamId": 9851,
+        "homeTeamName": "Lyon",
+        "awayTeamName": "Rennes",
+        "homeScore": 4,
+        "awayScore": 2,
+        "matchId": 4830739,
+        "matchDate": "2026-05-03T18:45:00Z",
+        "teamColor": "#0160A0",
+        "teamColorDark": "#ffffff"
+      },
+      {
+        "id": 2936371455,
+        "playerName": "Roman Yaremchuk",
+        "eventType": "AttemptSaved",
+        "shotType": "RightFoot",
+        "situation": "RegularPlay",
+        "teamId": 9748,
+        "playerId": 643690,
+        "x": 89.4,
+        "y": 35.75375,
+        "min": 47,
+        "period": "SecondHalf",
+        "isOwnGoal": false,
+        "isBlocked": true,
+        "isOnTarget": true,
+        "isSavedOffLine": false,
+        "isFromInsideBox": true,
+        "blockedX": 91.9,
+        "blockedY": 35.6775,
+        "goalCrossedY": 35.0675,
+        "goalCrossedZ": 1.219999994,
+        "expectedGoals": 0.0515639595687389,
+        "expectedGoalsOnTarget": 0,
+        "onGoalShot": {
+          "x": 0.717592592592592,
+          "y": 0.322751321164021,
+          "zoomRatio": 1
+        },
+        "box": "InsideBox",
+        "homeTeamId": 9941,
+        "awayTeamId": 9748,
+        "homeTeamName": "Toulouse",
+        "awayTeamName": "Lyon",
+        "homeScore": 2,
+        "awayScore": 1,
+        "matchId": 4830754,
+        "matchDate": "2026-05-10T19:00:00Z",
+        "teamColor": "#0160A0",
+        "teamColorDark": "#ffffff"
+      },
+      {
+        "id": 2936393809,
+        "playerName": "Roman Yaremchuk",
+        "eventType": "AttemptSaved",
+        "shotType": "RightFoot",
+        "situation": "FastBreak",
+        "teamId": 9748,
+        "playerId": 643690,
+        "x": 96.8947368413,
+        "y": 21.3368152901,
+        "min": 76,
+        "period": "SecondHalf",
+        "isOwnGoal": false,
+        "isBlocked": true,
+        "isOnTarget": true,
+        "isSavedOffLine": false,
+        "isFromInsideBox": true,
+        "blockedX": 98.3421052628,
+        "blockedY": 23.7189808963,
+        "goalCrossedY": 34.38125,
+        "goalCrossedZ": 1.219999994,
+        "expectedGoals": 0.0445673242211342,
+        "expectedGoalsOnTarget": 0,
+        "onGoalShot": {
+          "x": 0.899140211640211,
+          "y": 0.322751321164021,
+          "zoomRatio": 1
+        },
+        "box": "InsideBox",
+        "homeTeamId": 9941,
+        "awayTeamId": 9748,
+        "homeTeamName": "Toulouse",
+        "awayTeamName": "Lyon",
+        "homeScore": 2,
+        "awayScore": 1,
+        "matchId": 4830754,
+        "matchDate": "2026-05-10T19:00:00Z",
+        "teamColor": "#0160A0",
+        "teamColorDark": "#ffffff"
+      },
+      {
+        "id": 2939383841,
+        "playerName": "Roman Yaremchuk",
+        "eventType": "Post",
+        "shotType": "LeftFoot",
+        "situation": "RegularPlay",
+        "teamId": 9748,
+        "playerId": 643690,
+        "x": 91.6,
+        "y": 37.5075,
+        "min": 58,
+        "period": "SecondHalf",
+        "isOwnGoal": false,
+        "isBlocked": false,
+        "isOnTarget": false,
+        "isSavedOffLine": false,
+        "isFromInsideBox": true,
+        "goalCrossedY": 36.2875,
+        "goalCrossedZ": 2.497,
+        "expectedGoals": 0.206731960177422,
+        "expectedGoalsOnTarget": 0,
+        "onGoalShot": {
+          "x": 0.39484126984127,
+          "y": 0.66058201058201,
+          "zoomRatio": 1
+        },
+        "box": "InsideBox",
+        "homeTeamId": 9748,
+        "awayTeamId": 8588,
+        "homeTeamName": "Lyon",
+        "awayTeamName": "Lens",
+        "homeScore": 0,
+        "awayScore": 4,
+        "matchId": 4830758,
+        "matchDate": "2026-05-17T19:00:00Z",
+        "teamColor": "#0160A0",
+        "teamColorDark": "#ffffff"
+      }
+    ],
+    "statsSection": {
+      "id": "stats-section",
+      "items": [
+        {
+          "display": "stats-group",
+          "items": [
+            {
+              "localizedTitleId": "goals",
+              "per90": 0.6417112299465241,
+              "percentileRank": 50.76923076923077,
+              "percentileRankPer90": 86.15384615384616,
+              "statFormat": "number",
+              "statValue": "4",
+              "title": "Goals"
+            },
+            {
+              "localizedTitleId": "expected_goals",
+              "per90": 0.35724063608098156,
+              "percentileRank": 33.84615384615385,
+              "percentileRankPer90": 50.76923076923077,
+              "statFormat": "fraction",
+              "statValue": "2.23",
+              "title": "xG"
+            },
+            {
+              "localizedTitleId": "expected_goals_on_target",
+              "per90": 0.5046898413469447,
+              "percentileRank": 49.23076923076923,
+              "percentileRankPer90": 73.84615384615385,
+              "statFormat": "fraction",
+              "statValue": "3.15",
+              "title": "xGOT"
+            },
+            {
+              "localizedTitleId": "non_penalty_xg",
+              "per90": 0.35724063608098156,
+              "percentileRank": 38.46153846153847,
+              "percentileRankPer90": 55.38461538461539,
+              "statFormat": "fraction",
+              "statValue": "2.23",
+              "title": "xG excl. penalty"
+            },
+            {
+              "localizedTitleId": "shots",
+              "per90": 2.5668449197860963,
+              "percentileRank": 36.92307692307693,
+              "percentileRankPer90": 56.92307692307692,
+              "statFormat": "number",
+              "statValue": "16",
+              "title": "Shots"
+            },
+            {
+              "localizedTitleId": "ShotsOnTarget",
+              "per90": 0.9625668449197861,
+              "percentileRank": 29.230769230769234,
+              "percentileRankPer90": 55.38461538461539,
+              "statFormat": "number",
+              "statValue": "6",
+              "title": "Shots on target"
+            },
+            {
+              "localizedTitleId": "headed_shots",
+              "per90": 0.9625668449197861,
+              "percentileRank": 61.53846153846154,
+              "percentileRankPer90": 83.07692307692308,
+              "statFormat": "number",
+              "statValue": "6",
+              "title": "Headed shots"
+            }
+          ],
+          "localizedTitleId": "shooting",
+          "title": "Shooting",
+          "type": "stat-values"
+        },
+        {
+          "display": "stats-group",
+          "items": [
+            {
+              "localizedTitleId": "assists",
+              "per90": 0.16042780748663102,
+              "percentileRank": 41.53846153846154,
+              "percentileRankPer90": 69.23076923076923,
+              "statFormat": "number",
+              "statValue": "1",
+              "title": "Assists"
+            },
+            {
+              "localizedTitleId": "expected_assists",
+              "per90": 0.09336303899632419,
+              "percentileRank": 44.61538461538462,
+              "percentileRankPer90": 70.76923076923077,
+              "statFormat": "fraction",
+              "statValue": "0.58",
+              "title": "xA"
+            },
+            {
+              "localizedTitleId": "successful_passes",
+              "per90": 12.673796791443849,
+              "percentileRank": 27.692307692307693,
+              "percentileRankPer90": 41.53846153846154,
+              "statFormat": "number",
+              "statValue": "79",
+              "title": "Accurate passes"
+            },
+            {
+              "localizedTitleId": "successful_passes_accuracy",
+              "per90": 76.69902912621359,
+              "percentileRank": 69.23076923076923,
+              "percentileRankPer90": 69.23076923076923,
+              "statFormat": "percent",
+              "statValue": "76.7",
+              "title": "Pass accuracy"
+            },
+            {
+              "localizedTitleId": "long_balls_accurate",
+              "per90": 0.16042780748663102,
+              "percentileRank": 18.461538461538463,
+              "percentileRankPer90": 30.76923076923077,
+              "statFormat": "number",
+              "statValue": "1",
+              "title": "Accurate long balls"
+            },
+            {
+              "localizedTitleId": "long_ball_succeeeded_accuracy",
+              "per90": 33.333333333333336,
+              "percentileRank": 27.692307692307693,
+              "percentileRankPer90": 27.692307692307693,
+              "statFormat": "percent",
+              "statValue": "33.3",
+              "title": "Long ball accuracy"
+            },
+            {
+              "localizedTitleId": "chances_created",
+              "per90": 0.9625668449197861,
+              "percentileRank": 38.46153846153847,
+              "percentileRankPer90": 61.53846153846154,
+              "statFormat": "number",
+              "statValue": "6",
+              "title": "Chances created"
+            },
+            {
+              "localizedTitleId": "big_chance_created_team_title",
+              "per90": 0.32085561497326204,
+              "percentileRank": 49.23076923076923,
+              "percentileRankPer90": 80,
+              "statFormat": "number",
+              "statValue": "2",
+              "title": "Big chances created"
+            },
+            {
+              "localizedTitleId": "crosses_succeeeded",
+              "per90": 0.16042780748663102,
+              "percentileRank": 49.23076923076923,
+              "percentileRankPer90": 72.3076923076923,
+              "statFormat": "number",
+              "statValue": "1",
+              "title": "Successful crosses"
+            },
+            {
+              "localizedTitleId": "crosses_succeeeded_accuracy",
+              "per90": 100,
+              "percentileRank": 100,
+              "percentileRankPer90": 100,
+              "statFormat": "percent",
+              "statValue": "100.0",
+              "title": "Cross accuracy"
+            }
+          ],
+          "localizedTitleId": "passing",
+          "title": "Passing",
+          "type": "stat-values"
+        },
+        {
+          "display": "stats-group",
+          "items": [
+            {
+              "localizedTitleId": "dribbles_succeeded",
+              "per90": 0.32085561497326204,
+              "percentileRank": 13.846153846153847,
+              "percentileRankPer90": 16.923076923076923,
+              "statFormat": "number",
+              "statValue": "2",
+              "title": "Dribbles"
+            },
+            {
+              "localizedTitleId": "won_contest_subtitle",
+              "per90": 20,
+              "percentileRank": 12.307692307692308,
+              "percentileRankPer90": 12.307692307692308,
+              "statFormat": "percent",
+              "statValue": "20.0",
+              "title": "Dribbles success rate"
+            },
+            {
+              "localizedTitleId": "duel_won",
+              "per90": 3.5294117647058822,
+              "percentileRank": 27.692307692307693,
+              "percentileRankPer90": 29.230769230769234,
+              "statFormat": "number",
+              "statValue": "22",
+              "title": "Duels won"
+            },
+            {
+              "localizedTitleId": "duel_won_percent",
+              "per90": 41.509433962264154,
+              "percentileRank": 56.92307692307692,
+              "percentileRankPer90": 56.92307692307692,
+              "statFormat": "percent",
+              "statValue": "41.5",
+              "title": "Duels won %"
+            },
+            {
+              "localizedTitleId": "aerials_won",
+              "per90": 2.085561497326203,
+              "percentileRank": 46.15384615384615,
+              "percentileRankPer90": 64.61538461538461,
+              "statFormat": "number",
+              "statValue": "13",
+              "title": "Aerials won"
+            },
+            {
+              "localizedTitleId": "aerials_won_percent",
+              "per90": 65,
+              "percentileRank": 93.84615384615384,
+              "percentileRankPer90": 93.84615384615384,
+              "statFormat": "percent",
+              "statValue": "65.0",
+              "title": "Aerials won %"
+            },
+            {
+              "localizedTitleId": "touches",
+              "per90": 27.272727272727273,
+              "percentileRank": 27.692307692307693,
+              "percentileRankPer90": 16.923076923076923,
+              "statFormat": "number",
+              "statValue": "170",
+              "title": "Touches"
+            },
+            {
+              "localizedTitleId": "touches_opp_box",
+              "per90": 6.096256684491978,
+              "percentileRank": 40,
+              "percentileRankPer90": 80,
+              "statFormat": "number",
+              "statValue": "38",
+              "title": "Touches in opposition box"
+            },
+            {
+              "localizedTitleId": "dispossessed",
+              "per90": 1.2834224598930482,
+              "percentileRank": 56.92307692307692,
+              "percentileRankPer90": 49.23076923076923,
+              "statFormat": "number",
+              "statValue": "8",
+              "title": "Dispossessed"
+            },
+            {
+              "localizedTitleId": "fouls_won",
+              "per90": 0.6417112299465241,
+              "percentileRank": 23.076923076923077,
+              "percentileRankPer90": 20,
+              "statFormat": "number",
+              "statValue": "4",
+              "title": "Fouls won"
+            }
+          ],
+          "localizedTitleId": "possession",
+          "title": "Possession",
+          "type": "stat-values"
+        },
+        {
+          "display": "stats-group",
+          "items": [
+            {
+              "localizedTitleId": "defensive_actions",
+              "per90": 0.9625668449197861,
+              "percentileRank": 20,
+              "percentileRankPer90": 16.923076923076923,
+              "statFormat": "number",
+              "statValue": "6",
+              "title": "Defensive actions"
+            },
+            {
+              "localizedTitleId": "matchstats.headers.tackles",
+              "per90": 0.6417112299465241,
+              "percentileRank": 29.230769230769234,
+              "percentileRankPer90": 49.23076923076923,
+              "statFormat": "number",
+              "statValue": "4",
+              "title": "Tackles"
+            },
+            {
+              "localizedTitleId": "fouls",
+              "per90": 1.1229946524064172,
+              "percentileRank": 73.84615384615385,
+              "percentileRankPer90": 75.38461538461539,
+              "statFormat": "number",
+              "statValue": "7",
+              "title": "Fouls committed"
+            },
+            {
+              "localizedTitleId": "recoveries",
+              "per90": 2.085561497326203,
+              "percentileRank": 29.230769230769234,
+              "percentileRankPer90": 43.07692307692308,
+              "statFormat": "number",
+              "statValue": "13",
+              "title": "Recoveries"
+            },
+            {
+              "localizedTitleId": "poss_won_att_3rd_team_title",
+              "per90": 0.48128342245989303,
+              "percentileRank": 32.30769230769231,
+              "percentileRankPer90": 46.15384615384615,
+              "statFormat": "number",
+              "statValue": "3",
+              "title": "Possession won final 3rd"
+            },
+            {
+              "localizedTitleId": "dribbled_past",
+              "per90": 0.32085561497326204,
+              "percentileRank": 61.53846153846154,
+              "percentileRankPer90": 58.46153846153847,
+              "statFormat": "number",
+              "statValue": "2",
+              "title": "Dribbled past"
+            },
+            {
+              "localizedTitleId": "clearances",
+              "per90": 0.32085561497326204,
+              "percentileRank": 12.307692307692308,
+              "percentileRankPer90": 18.461538461538463,
+              "statFormat": "number",
+              "statValue": "2",
+              "title": "Clearances"
+            },
+            {
+              "localizedTitleId": "clean_sheet_team_title",
+              "per90": 0,
+              "percentileRank": 0,
+              "percentileRankPer90": 0,
+              "statFormat": "number",
+              "statValue": "0",
+              "title": "Clean sheets"
+            },
+            {
+              "localizedTitleId": "goals_conceded_while_on_pitch",
+              "per90": 1.4438502673796794,
+              "percentileRank": 58.46153846153847,
+              "percentileRankPer90": 43.07692307692308,
+              "statFormat": "number",
+              "statValue": "9",
+              "title": "Goals conceded while on pitch"
+            },
+            {
+              "localizedTitleId": "expected_goals_against_while_on_pitch",
+              "per90": 1.320256676903383,
+              "percentileRank": 67.6923076923077,
+              "percentileRankPer90": 58.46153846153847,
+              "statFormat": "fraction",
+              "statValue": "8.23",
+              "title": "xG against while on pitch"
+            }
+          ],
+          "localizedTitleId": "defending",
+          "title": "Defending",
+          "type": "stat-values"
+        },
+        {
+          "display": "stats-group",
+          "items": [
+            {
+              "localizedTitleId": "yellow_cards",
+              "per90": 0.16042780748663102,
+              "percentileRank": 43.07692307692308,
+              "percentileRankPer90": 40,
+              "statFormat": "number",
+              "statValue": "1",
+              "title": "Yellow cards"
+            },
+            {
+              "localizedTitleId": "red_cards",
+              "per90": 0,
+              "percentileRank": 100,
+              "percentileRankPer90": 100,
+              "statFormat": "number",
+              "statValue": "0",
+              "title": "Red cards"
+            }
+          ],
+          "localizedTitleId": "discipline",
+          "title": "Discipline",
+          "type": "stat-values"
+        }
+      ],
+      "localizedTitleId": "season_performance",
+      "title": "Season performance",
+      "type": "grouped-stat-values"
+    },
+    "topStatCard": {
+      "display": "stats-group",
+      "id": "top-stat-card",
+      "items": [
+        {
+          "localizedTitleId": "goals",
+          "per90": 0.6417112299465241,
+          "percentileRank": 50.76923076923077,
+          "percentileRankPer90": 86.15384615384616,
+          "statFormat": "number",
+          "statValue": "4",
+          "title": "Goals"
+        },
+        {
+          "localizedTitleId": "assists",
+          "per90": 0.16042780748663102,
+          "percentileRank": 41.53846153846154,
+          "percentileRankPer90": 69.23076923076923,
+          "statFormat": "number",
+          "statValue": "1",
+          "title": "Assists"
+        },
+        {
+          "localizedTitleId": "rating",
+          "per90": 6.81,
+          "percentileRank": 67.6923076923077,
+          "percentileRankPer90": 67.6923076923077,
+          "statFormat": "fraction",
+          "statValue": "6.81",
+          "title": "Rating"
+        },
+        {
+          "localizedTitleId": "matches_uppercase",
+          "per90": 11,
+          "percentileRank": 21.53846153846154,
+          "percentileRankPer90": 21.53846153846154,
+          "statFormat": "number",
+          "statValue": "11",
+          "title": "Matches"
+        },
+        {
+          "localizedTitleId": "player_started_matches",
+          "per90": 5,
+          "percentileRank": 29.230769230769234,
+          "percentileRankPer90": 16.923076923076923,
+          "statFormat": "number",
+          "statValue": "5",
+          "title": "Started"
+        },
+        {
+          "localizedTitleId": "minutes_played",
+          "per90": 90,
+          "percentileRank": 38.46153846153847,
+          "percentileRankPer90": 100,
+          "statFormat": "number",
+          "statValue": "561",
+          "title": "Minutes"
+        }
+      ],
+      "type": "stat-values"
+    },
+    "heatmap": {
+      "coordinates": [
+        {
+          "x": 63.45,
+          "y": 17.13
+        },
+        {
+          "x": 54.33,
+          "y": 57.11
+        },
+        {
+          "x": 54.33,
+          "y": 57.11
+        },
+        {
+          "x": 41.21,
+          "y": 49.82
+        },
+        {
+          "x": 50.16,
+          "y": 37.58
+        },
+        {
+          "x": 45.38,
+          "y": 30.72
+        },
+        {
+          "x": 83.72,
+          "y": 56
+        },
+        {
+          "x": 99.11,
+          "y": 60.65
+        },
+        {
+          "x": 103.39,
+          "y": 58.69
+        },
+        {
+          "x": 66.94,
+          "y": 49.19
+        },
+        {
+          "x": 66.94,
+          "y": 49.19
+        },
+        {
+          "x": 100.16,
+          "y": 4.2
+        },
+        {
+          "x": 94.48,
+          "y": 11.22
+        },
+        {
+          "x": 37.38,
+          "y": 41.95
+        },
+        {
+          "x": 37.38,
+          "y": 41.95
+        },
+        {
+          "x": 47.93,
+          "y": 62.16
+        },
+        {
+          "x": 61.14,
+          "y": 59.01
+        },
+        {
+          "x": 35.47,
+          "y": 22.67
+        },
+        {
+          "x": 95.83,
+          "y": 30.05
+        },
+        {
+          "x": 52.3,
+          "y": 33.92
+        },
+        {
+          "x": 49.65,
+          "y": 28.29
+        },
+        {
+          "x": 43.35,
+          "y": 24.28
+        },
+        {
+          "x": 57.68,
+          "y": 29.8
+        },
+        {
+          "x": 83.72,
+          "y": 39.21
+        },
+        {
+          "x": 41.44,
+          "y": 21.62
+        },
+        {
+          "x": 86.35,
+          "y": 50.45
+        },
+        {
+          "x": 67.51,
+          "y": 4.33
+        },
+        {
+          "x": 61.76,
+          "y": 20.08
+        },
+        {
+          "x": 49.96,
+          "y": 1.12
+        },
+        {
+          "x": 29.05,
+          "y": 48.91
+        },
+        {
+          "x": 29.05,
+          "y": 48.91
+        },
+        {
+          "x": 33.33,
+          "y": 38.79
+        },
+        {
+          "x": 63.9,
+          "y": 45.4
+        },
+        {
+          "x": 49.65,
+          "y": 23.16
+        },
+        {
+          "x": 43.86,
+          "y": 47.08
+        },
+        {
+          "x": 36.37,
+          "y": 53.04
+        },
+        {
+          "x": 97.28,
+          "y": 52.06
+        },
+        {
+          "x": 64.58,
+          "y": 11.35
+        },
+        {
+          "x": 89.5,
+          "y": 36.59
+        },
+        {
+          "x": 47.82,
+          "y": 8.26
+        },
+        {
+          "x": 78.09,
+          "y": 12.79
+        },
+        {
+          "x": 64.02,
+          "y": 46.66
+        },
+        {
+          "x": 64.02,
+          "y": 46.66
+        },
+        {
+          "x": 60.84,
+          "y": 1.25
+        },
+        {
+          "x": 85.06,
+          "y": 64.39
+        },
+        {
+          "x": 49.65,
+          "y": 46.59
+        },
+        {
+          "x": 98.92,
+          "y": 46.87
+        },
+        {
+          "x": 63.56,
+          "y": 9.97
+        },
+        {
+          "x": 63.56,
+          "y": 9.97
+        },
+        {
+          "x": 15.4,
+          "y": 56.46
+        },
+        {
+          "x": 93.9,
+          "y": 38.96
+        },
+        {
+          "x": 95.64,
+          "y": 19.73
+        },
+        {
+          "x": 96.22,
+          "y": 22.74
+        },
+        {
+          "x": 62.21,
+          "y": 24.28
+        },
+        {
+          "x": 61.55,
+          "y": 25.19
+        },
+        {
+          "x": 93.1,
+          "y": 20.36
+        },
+        {
+          "x": 52.4,
+          "y": 33.92
+        },
+        {
+          "x": 42,
+          "y": 56.98
+        },
+        {
+          "x": 69.87,
+          "y": 55.14
+        },
+        {
+          "x": 47.42,
+          "y": 24.7
+        },
+        {
+          "x": 77.87,
+          "y": 27.45
+        },
+        {
+          "x": 95.35,
+          "y": 44.91
+        },
+        {
+          "x": 96.7,
+          "y": 45.96
+        },
+        {
+          "x": 67.17,
+          "y": 7.67
+        },
+        {
+          "x": 79.78,
+          "y": 41.48
+        },
+        {
+          "x": 73.7,
+          "y": 11.28
+        },
+        {
+          "x": 59.92,
+          "y": 42.52
+        },
+        {
+          "x": 96.8,
+          "y": 36.59
+        },
+        {
+          "x": 96.8,
+          "y": 36.59
+        },
+        {
+          "x": 92.3,
+          "y": 19.52
+        },
+        {
+          "x": 96.7,
+          "y": 35.68
+        },
+        {
+          "x": 96.7,
+          "y": 35.68
+        },
+        {
+          "x": 96.61,
+          "y": 33.01
+        },
+        {
+          "x": 87.1,
+          "y": 56.39
+        },
+        {
+          "x": 38.96,
+          "y": 49.19
+        },
+        {
+          "x": 36.14,
+          "y": 61.11
+        },
+        {
+          "x": 34.79,
+          "y": 56.59
+        },
+        {
+          "x": 45.59,
+          "y": 51.29
+        },
+        {
+          "x": 57.28,
+          "y": 55.08
+        },
+        {
+          "x": 44.47,
+          "y": 23.23
+        },
+        {
+          "x": 75.5,
+          "y": 65.64
+        },
+        {
+          "x": 75.05,
+          "y": 64.98
+        },
+        {
+          "x": 89.5,
+          "y": 19.45
+        },
+        {
+          "x": 103.77,
+          "y": 18.25
+        },
+        {
+          "x": 103.67,
+          "y": 41.23
+        },
+        {
+          "x": 71.79,
+          "y": 24.7
+        },
+        {
+          "x": 54.84,
+          "y": 45.12
+        },
+        {
+          "x": 74.04,
+          "y": 45.33
+        },
+        {
+          "x": 36.14,
+          "y": 61.11
+        },
+        {
+          "x": 93.3,
+          "y": 36.59
+        },
+        {
+          "x": 102.63,
+          "y": 26.34
+        },
+        {
+          "x": 85.6,
+          "y": 21.55
+        },
+        {
+          "x": 41.44,
+          "y": 18.53
+        },
+        {
+          "x": 98.92,
+          "y": 37.05
+        },
+        {
+          "x": 98.92,
+          "y": 37.05
+        },
+        {
+          "x": 63.11,
+          "y": 11.48
+        },
+        {
+          "x": 33.66,
+          "y": 4.46
+        },
+        {
+          "x": 29.72,
+          "y": 9.9
+        },
+        {
+          "x": 79.11,
+          "y": 12.79
+        },
+        {
+          "x": 55.14,
+          "y": 10.3
+        },
+        {
+          "x": 95.35,
+          "y": 34.76
+        },
+        {
+          "x": 101.21,
+          "y": 34.76
+        },
+        {
+          "x": 64.24,
+          "y": 8.85
+        },
+        {
+          "x": 102.72,
+          "y": 24.56
+        },
+        {
+          "x": 52.4,
+          "y": 33.92
+        },
+        {
+          "x": 98.34,
+          "y": 33.54
+        },
+        {
+          "x": 40.98,
+          "y": 11.94
+        },
+        {
+          "x": 57.28,
+          "y": 3.87
+        },
+        {
+          "x": 57.28,
+          "y": 3.87
+        },
+        {
+          "x": 67.17,
+          "y": 17.34
+        },
+        {
+          "x": 77.08,
+          "y": 4.39
+        },
+        {
+          "x": 84.17,
+          "y": 6.23
+        },
+        {
+          "x": 90.8,
+          "y": 22.74
+        },
+        {
+          "x": 75.62,
+          "y": 5.9
+        },
+        {
+          "x": 37.27,
+          "y": 31.41
+        },
+        {
+          "x": 64.35,
+          "y": 8.79
+        },
+        {
+          "x": 64.24,
+          "y": 4.46
+        },
+        {
+          "x": 71,
+          "y": 2.23
+        },
+        {
+          "x": 93.5,
+          "y": 23.72
+        },
+        {
+          "x": 93.6,
+          "y": 24.21
+        },
+        {
+          "x": 68.29,
+          "y": 7.54
+        },
+        {
+          "x": 74.15,
+          "y": 24.35
+        },
+        {
+          "x": 19.83,
+          "y": 34.76
+        },
+        {
+          "x": 22.06,
+          "y": 37.43
+        },
+        {
+          "x": 48.84,
+          "y": 8.99
+        },
+        {
+          "x": 80.35,
+          "y": 25.3
+        },
+        {
+          "x": 80.35,
+          "y": 25.3
+        },
+        {
+          "x": 57.68,
+          "y": 50.45
+        },
+        {
+          "x": 62.21,
+          "y": 25.48
+        },
+        {
+          "x": 68.41,
+          "y": 27.19
+        },
+        {
+          "x": 55.35,
+          "y": 45.4
+        },
+        {
+          "x": 55.35,
+          "y": 45.4
+        },
+        {
+          "x": 100.54,
+          "y": 26.52
+        },
+        {
+          "x": 67.96,
+          "y": 37.28
+        },
+        {
+          "x": 67.96,
+          "y": 37.28
+        },
+        {
+          "x": 55.35,
+          "y": 63.01
+        },
+        {
+          "x": 95.54,
+          "y": 32.86
+        },
+        {
+          "x": 74.38,
+          "y": 28.71
+        },
+        {
+          "x": 100.64,
+          "y": 33.24
+        },
+        {
+          "x": 64.24,
+          "y": 25.19
+        },
+        {
+          "x": 94.58,
+          "y": 17.48
+        },
+        {
+          "x": 95.45,
+          "y": 8.59
+        },
+        {
+          "x": 94.77,
+          "y": 4.2
+        },
+        {
+          "x": 87.53,
+          "y": 5.84
+        },
+        {
+          "x": 75.28,
+          "y": 17.13
+        },
+        {
+          "x": 49.25,
+          "y": 45.54
+        },
+        {
+          "x": 67.17,
+          "y": 62.69
+        },
+        {
+          "x": 52.6,
+          "y": 33.77
+        },
+        {
+          "x": 92,
+          "y": 44.42
+        },
+        {
+          "x": 75.73,
+          "y": 27.45
+        },
+        {
+          "x": 91.2,
+          "y": 28.37
+        },
+        {
+          "x": 64.24,
+          "y": 63.67
+        },
+        {
+          "x": 90.7,
+          "y": 19.94
+        },
+        {
+          "x": 77.64,
+          "y": 21.76
+        },
+        {
+          "x": 76.18,
+          "y": 22.95
+        },
+        {
+          "x": 96.8,
+          "y": 34.53
+        },
+        {
+          "x": 44.16,
+          "y": 10.63
+        },
+        {
+          "x": 41.66,
+          "y": 9.31
+        },
+        {
+          "x": 74.6,
+          "y": 58.55
+        },
+        {
+          "x": 50.37,
+          "y": 16.29
+        },
+        {
+          "x": 79.44,
+          "y": 17.76
+        },
+        {
+          "x": 60.23,
+          "y": 21.2
+        },
+        {
+          "x": 72.12,
+          "y": 53.6
+        },
+        {
+          "x": 44.16,
+          "y": 8.4
+        },
+        {
+          "x": 96.89,
+          "y": 32.25
+        },
+        {
+          "x": 41.44,
+          "y": 56.19
+        },
+        {
+          "x": 87.1,
+          "y": 28.71
+        },
+        {
+          "x": 75.05,
+          "y": 9.77
+        },
+        {
+          "x": 42.22,
+          "y": 40.39
+        },
+        {
+          "x": 50.26,
+          "y": 46.45
+        },
+        {
+          "x": 50.37,
+          "y": 9.25
+        },
+        {
+          "x": 5.69,
+          "y": 27.53
+        },
+        {
+          "x": 72.35,
+          "y": 14.96
+        },
+        {
+          "x": 78.66,
+          "y": 16.71
+        },
+        {
+          "x": 5.69,
+          "y": 27.53
+        },
+        {
+          "x": 63,
+          "y": 3.54
+        },
+        {
+          "x": 93.1,
+          "y": 25.59
+        },
+        {
+          "x": 82.37,
+          "y": 26.86
+        },
+        {
+          "x": 80.35,
+          "y": 63.28
+        },
+        {
+          "x": 64.69,
+          "y": 20.36
+        },
+        {
+          "x": 95.74,
+          "y": 27.78
+        },
+        {
+          "x": 40.53,
+          "y": 42.93
+        },
+        {
+          "x": 40.53,
+          "y": 42.93
+        },
+        {
+          "x": 50.77,
+          "y": 32.86
+        },
+        {
+          "x": 58.29,
+          "y": 45.61
+        },
+        {
+          "x": 61.88,
+          "y": 35.07
+        },
+        {
+          "x": 47.62,
+          "y": 19.73
+        },
+        {
+          "x": 79.11,
+          "y": 18.46
+        },
+        {
+          "x": 65.93,
+          "y": 6.69
+        },
+        {
+          "x": 63,
+          "y": 4.07
+        },
+        {
+          "x": 57.58,
+          "y": 65.31
+        },
+        {
+          "x": 74.04,
+          "y": 14.4
+        },
+        {
+          "x": 61.34,
+          "y": 49.33
+        },
+        {
+          "x": 85.17,
+          "y": 60.46
+        },
+        {
+          "x": 61.65,
+          "y": 11.81
+        },
+        {
+          "x": 89.4,
+          "y": 32.25
+        },
+        {
+          "x": 96.03,
+          "y": 34.76
+        },
+        {
+          "x": 22.63,
+          "y": 44
+        },
+        {
+          "x": 76.07,
+          "y": 41.06
+        },
+        {
+          "x": 94.96,
+          "y": 34.53
+        },
+        {
+          "x": 69.08,
+          "y": 40.3
+        },
+        {
+          "x": 96.89,
+          "y": 46.66
+        },
+        {
+          "x": 97.18,
+          "y": 45.54
+        },
+        {
+          "x": 3.41,
+          "y": 41.6
+        },
+        {
+          "x": 81.02,
+          "y": 22.46
+        },
+        {
+          "x": 94.58,
+          "y": 44.98
+        },
+        {
+          "x": 94.58,
+          "y": 44.98
+        },
+        {
+          "x": 91.4,
+          "y": 29.13
+        },
+        {
+          "x": 91.6,
+          "y": 30.49
+        },
+        {
+          "x": 81.7,
+          "y": 50.03
+        },
+        {
+          "x": 63,
+          "y": 12.86
+        },
+        {
+          "x": 40.42,
+          "y": 35.75
+        },
+        {
+          "x": 40.42,
+          "y": 35.75
+        },
+        {
+          "x": 79.11,
+          "y": 25.59
+        },
+        {
+          "x": 101.11,
+          "y": 34.3
+        }
+      ]
+    },
+    "keeperShotmap": null
+  },
+  "status": "active",
+  "marketValues": {
+    "values": [
+      {
+        "date": "2014-12-31T00:00:00+00:00",
+        "value": 310000,
+        "currency": "EUR",
+        "lowerBound": 240000,
+        "upperBound": 390000,
+        "source": "scisports",
+        "teamId": 187935,
+        "teamName": "Dynamo Kyiv II",
+        "isPeriodStart": true
+      },
+      {
+        "date": "2015-06-30T00:00:00+00:00",
+        "value": 360000,
+        "currency": "EUR",
+        "lowerBound": 270000,
+        "upperBound": 450000,
+        "source": "scisports",
+        "teamId": 8688,
+        "teamName": "Dynamo Kyiv",
+        "isPeriodStart": true
+      },
+      {
+        "date": "2015-12-31T00:00:00+00:00",
+        "value": 410000,
+        "currency": "EUR",
+        "lowerBound": 310000,
+        "upperBound": 510000,
+        "source": "scisports",
+        "teamId": 8688,
+        "teamName": "Dynamo Kyiv"
+      },
+      {
+        "date": "2016-06-30T00:00:00+00:00",
+        "value": 340000,
+        "currency": "EUR",
+        "lowerBound": 260000,
+        "upperBound": 430000,
+        "source": "scisports",
+        "teamId": 6072,
+        "teamName": "FC Oleksandriya",
+        "isPeriodStart": true
+      },
+      {
+        "date": "2016-12-31T00:00:00+00:00",
+        "value": 270000,
+        "currency": "EUR",
+        "lowerBound": 210000,
+        "upperBound": 340000,
+        "source": "scisports",
+        "teamId": 8688,
+        "teamName": "Dynamo Kyiv",
+        "isPeriodStart": true
+      },
+      {
+        "date": "2017-06-30T00:00:00+00:00",
+        "value": 430000,
+        "currency": "EUR",
+        "lowerBound": 320000,
+        "upperBound": 540000,
+        "source": "scisports",
+        "teamId": 9991,
+        "teamName": "Gent",
+        "isPeriodStart": true
+      },
+      {
+        "date": "2017-12-31T00:00:00+00:00",
+        "value": 590000,
+        "currency": "EUR",
+        "lowerBound": 440000,
+        "upperBound": 740000,
+        "source": "scisports",
+        "teamId": 9991,
+        "teamName": "Gent"
+      },
+      {
+        "date": "2018-06-30T00:00:00+00:00",
+        "value": 1680000,
+        "currency": "EUR",
+        "lowerBound": 1260000,
+        "upperBound": 2100000,
+        "source": "scisports",
+        "teamId": 9991,
+        "teamName": "Gent"
+      },
+      {
+        "date": "2018-12-31T00:00:00+00:00",
+        "value": 2770000,
+        "currency": "EUR",
+        "lowerBound": 2080000,
+        "upperBound": 3460000,
+        "source": "scisports",
+        "teamId": 9991,
+        "teamName": "Gent"
+      },
+      {
+        "date": "2019-06-30T00:00:00+00:00",
+        "value": 7120000,
+        "currency": "EUR",
+        "lowerBound": 5340000,
+        "upperBound": 8910000,
+        "source": "scisports",
+        "teamId": 9991,
+        "teamName": "Gent"
+      },
+      {
+        "date": "2019-12-31T00:00:00+00:00",
+        "value": 11480000,
+        "currency": "EUR",
+        "lowerBound": 8610000,
+        "upperBound": 14350000,
+        "source": "scisports",
+        "teamId": 9991,
+        "teamName": "Gent"
+      },
+      {
+        "date": "2020-06-30T00:00:00+00:00",
+        "value": 12690000,
+        "currency": "EUR",
+        "lowerBound": 9520000,
+        "upperBound": 15860000,
+        "source": "scisports",
+        "teamId": 9991,
+        "teamName": "Gent"
+      },
+      {
+        "date": "2020-12-31T00:00:00+00:00",
+        "value": 13900000,
+        "currency": "EUR",
+        "lowerBound": 10430000,
+        "upperBound": 17380000,
+        "source": "scisports",
+        "teamId": 9991,
+        "teamName": "Gent"
+      },
+      {
+        "date": "2021-06-30T00:00:00+00:00",
+        "value": 17800000,
+        "currency": "EUR",
+        "lowerBound": 13350000,
+        "upperBound": 22240000,
+        "source": "scisports",
+        "teamId": 9772,
+        "teamName": "Benfica",
+        "isPeriodStart": true
+      },
+      {
+        "date": "2021-10-31T00:00:00+00:00",
+        "value": 21690000,
+        "currency": "EUR",
+        "lowerBound": 16270000,
+        "upperBound": 27110000,
+        "source": "scisports",
+        "teamId": 9772,
+        "teamName": "Benfica"
+      },
+      {
+        "date": "2021-11-30T00:00:00+00:00",
+        "value": 23270000,
+        "currency": "EUR",
+        "lowerBound": 17450000,
+        "upperBound": 29090000,
+        "source": "scisports",
+        "teamId": 9772,
+        "teamName": "Benfica"
+      },
+      {
+        "date": "2021-12-31T00:00:00+00:00",
+        "value": 23590000,
+        "currency": "EUR",
+        "lowerBound": 17690000,
+        "upperBound": 29490000,
+        "source": "scisports",
+        "teamId": 9772,
+        "teamName": "Benfica"
+      },
+      {
+        "date": "2022-01-31T00:00:00+00:00",
+        "value": 22150000,
+        "currency": "EUR",
+        "lowerBound": 16620000,
+        "upperBound": 27690000,
+        "source": "scisports",
+        "teamId": 9772,
+        "teamName": "Benfica"
+      },
+      {
+        "date": "2022-02-28T00:00:00+00:00",
+        "value": 20350000,
+        "currency": "EUR",
+        "lowerBound": 15260000,
+        "upperBound": 25430000,
+        "source": "scisports",
+        "teamId": 9772,
+        "teamName": "Benfica"
+      },
+      {
+        "date": "2022-03-31T00:00:00+00:00",
+        "value": 18440000,
+        "currency": "EUR",
+        "lowerBound": 13830000,
+        "upperBound": 23040000,
+        "source": "scisports",
+        "teamId": 9772,
+        "teamName": "Benfica"
+      },
+      {
+        "date": "2022-04-30T00:00:00+00:00",
+        "value": 18180000,
+        "currency": "EUR",
+        "lowerBound": 13640000,
+        "upperBound": 22730000,
+        "source": "scisports",
+        "teamId": 9772,
+        "teamName": "Benfica"
+      },
+      {
+        "date": "2022-05-31T00:00:00+00:00",
+        "value": 17900000,
+        "currency": "EUR",
+        "lowerBound": 13430000,
+        "upperBound": 22380000,
+        "source": "scisports",
+        "teamId": 9772,
+        "teamName": "Benfica"
+      },
+      {
+        "date": "2022-06-30T00:00:00+00:00",
+        "value": 16610000,
+        "currency": "EUR",
+        "lowerBound": 12460000,
+        "upperBound": 20760000,
+        "source": "scisports",
+        "teamId": 9772,
+        "teamName": "Benfica"
+      },
+      {
+        "date": "2022-07-31T00:00:00+00:00",
+        "value": 15520000,
+        "currency": "EUR",
+        "lowerBound": 11640000,
+        "upperBound": 19410000,
+        "source": "scisports",
+        "teamId": 9772,
+        "teamName": "Benfica"
+      },
+      {
+        "date": "2022-08-31T00:00:00+00:00",
+        "value": 16450000,
+        "currency": "EUR",
+        "lowerBound": 12340000,
+        "upperBound": 20570000,
+        "source": "scisports",
+        "teamId": 8342,
+        "teamName": "Club Brugge",
+        "isPeriodStart": true
+      },
+      {
+        "date": "2022-09-04T00:00:00+00:00",
+        "value": 15840000,
+        "currency": "EUR",
+        "lowerBound": 11880000,
+        "upperBound": 19790000,
+        "source": "scisports",
+        "teamId": 8342,
+        "teamName": "Club Brugge"
+      },
+      {
+        "date": "2022-09-30T00:00:00+00:00",
+        "value": 14940000,
+        "currency": "EUR",
+        "lowerBound": 11210000,
+        "upperBound": 18680000,
+        "source": "scisports",
+        "teamId": 8342,
+        "teamName": "Club Brugge"
+      },
+      {
+        "date": "2022-10-31T00:00:00+00:00",
+        "value": 14210000,
+        "currency": "EUR",
+        "lowerBound": 10660000,
+        "upperBound": 17770000,
+        "source": "scisports",
+        "teamId": 8342,
+        "teamName": "Club Brugge"
+      },
+      {
+        "date": "2022-11-30T00:00:00+00:00",
+        "value": 14150000,
+        "currency": "EUR",
+        "lowerBound": 10610000,
+        "upperBound": 17690000,
+        "source": "scisports",
+        "teamId": 8342,
+        "teamName": "Club Brugge"
+      },
+      {
+        "date": "2022-12-31T00:00:00+00:00",
+        "value": 13980000,
+        "currency": "EUR",
+        "lowerBound": 10480000,
+        "upperBound": 17480000,
+        "source": "scisports",
+        "teamId": 8342,
+        "teamName": "Club Brugge"
+      },
+      {
+        "date": "2023-01-31T00:00:00+00:00",
+        "value": 13720000,
+        "currency": "EUR",
+        "lowerBound": 10290000,
+        "upperBound": 17150000,
+        "source": "scisports",
+        "teamId": 8342,
+        "teamName": "Club Brugge"
+      },
+      {
+        "date": "2023-02-28T00:00:00+00:00",
+        "value": 13480000,
+        "currency": "EUR",
+        "lowerBound": 10110000,
+        "upperBound": 16850000,
+        "source": "scisports",
+        "teamId": 8342,
+        "teamName": "Club Brugge"
+      },
+      {
+        "date": "2023-03-31T00:00:00+00:00",
+        "value": 13140000,
+        "currency": "EUR",
+        "lowerBound": 9850000,
+        "upperBound": 16420000,
+        "source": "scisports",
+        "teamId": 8342,
+        "teamName": "Club Brugge"
+      },
+      {
+        "date": "2023-04-30T00:00:00+00:00",
+        "value": 12690000,
+        "currency": "EUR",
+        "lowerBound": 9520000,
+        "upperBound": 15870000,
+        "source": "scisports",
+        "teamId": 8342,
+        "teamName": "Club Brugge"
+      },
+      {
+        "date": "2023-05-31T00:00:00+00:00",
+        "value": 12470000,
+        "currency": "EUR",
+        "lowerBound": 9350000,
+        "upperBound": 15580000,
+        "source": "scisports",
+        "teamId": 8342,
+        "teamName": "Club Brugge"
+      },
+      {
+        "date": "2023-06-30T00:00:00+00:00",
+        "value": 10730000,
+        "currency": "EUR",
+        "lowerBound": 8050000,
+        "upperBound": 13410000,
+        "source": "scisports",
+        "teamId": 8342,
+        "teamName": "Club Brugge"
+      },
+      {
+        "date": "2023-07-31T00:00:00+00:00",
+        "value": 8470000,
+        "currency": "EUR",
+        "lowerBound": 6350000,
+        "upperBound": 10590000,
+        "source": "scisports",
+        "teamId": 8342,
+        "teamName": "Club Brugge"
+      },
+      {
+        "date": "2023-09-01T00:00:00+00:00",
+        "value": 7170000,
+        "currency": "EUR",
+        "lowerBound": 5380000,
+        "upperBound": 8960000,
+        "source": "scisports",
+        "teamId": 10267,
+        "teamName": "Valencia",
+        "isPeriodStart": true
+      },
+      {
+        "date": "2023-09-30T00:00:00+00:00",
+        "value": 6260000,
+        "currency": "EUR",
+        "lowerBound": 4700000,
+        "upperBound": 7830000,
+        "source": "scisports",
+        "teamId": 10267,
+        "teamName": "Valencia"
+      },
+      {
+        "date": "2023-10-31T00:00:00+00:00",
+        "value": 5830000,
+        "currency": "EUR",
+        "lowerBound": 4370000,
+        "upperBound": 7290000,
+        "source": "scisports",
+        "teamId": 10267,
+        "teamName": "Valencia"
+      },
+      {
+        "date": "2023-11-30T00:00:00+00:00",
+        "value": 5430000,
+        "currency": "EUR",
+        "lowerBound": 4080000,
+        "upperBound": 6790000,
+        "source": "scisports",
+        "teamId": 10267,
+        "teamName": "Valencia"
+      },
+      {
+        "date": "2023-12-31T00:00:00+00:00",
+        "value": 5270000,
+        "currency": "EUR",
+        "lowerBound": 3950000,
+        "upperBound": 6590000,
+        "source": "scisports",
+        "teamId": 10267,
+        "teamName": "Valencia"
+      },
+      {
+        "date": "2024-01-31T00:00:00+00:00",
+        "value": 3950000,
+        "currency": "EUR",
+        "lowerBound": 3160000,
+        "upperBound": 4740000,
+        "source": "scisports",
+        "teamId": 10267,
+        "teamName": "Valencia"
+      },
+      {
+        "date": "2024-02-29T00:00:00+00:00",
+        "value": 3160000,
+        "currency": "EUR",
+        "lowerBound": 2528000,
+        "upperBound": 3792000,
+        "source": "scisports",
+        "teamId": 10267,
+        "teamName": "Valencia"
+      },
+      {
+        "date": "2024-03-31T00:00:00+00:00",
+        "value": 2528000,
+        "currency": "EUR",
+        "lowerBound": 2022400,
+        "upperBound": 3033600,
+        "source": "scisports",
+        "teamId": 10267,
+        "teamName": "Valencia"
+      },
+      {
+        "date": "2024-04-30T00:00:00+00:00",
+        "value": 2067274,
+        "currency": "EUR",
+        "lowerBound": 1653819,
+        "upperBound": 2480729,
+        "source": "scisports",
+        "teamId": 10267,
+        "teamName": "Valencia"
+      },
+      {
+        "date": "2024-05-31T00:00:00+00:00",
+        "value": 2014722,
+        "currency": "EUR",
+        "lowerBound": 1611777,
+        "upperBound": 2417666,
+        "source": "scisports",
+        "teamId": 10267,
+        "teamName": "Valencia"
+      },
+      {
+        "date": "2024-06-30T00:00:00+00:00",
+        "value": 2011373,
+        "currency": "EUR",
+        "lowerBound": 1609099,
+        "upperBound": 2413648,
+        "source": "scisports",
+        "teamId": 8638,
+        "teamName": "Olympiacos",
+        "isPeriodStart": true
+      },
+      {
+        "date": "2024-07-31T00:00:00+00:00",
+        "value": 2007040,
+        "currency": "EUR",
+        "lowerBound": 1605632,
+        "upperBound": 2408449,
+        "source": "scisports",
+        "teamId": 8638,
+        "teamName": "Olympiacos"
+      },
+      {
+        "date": "2024-08-31T00:00:00+00:00",
+        "value": 1959442,
+        "currency": "EUR",
+        "lowerBound": 1567553,
+        "upperBound": 2351330,
+        "source": "scisports",
+        "teamId": 8638,
+        "teamName": "Olympiacos"
+      },
+      {
+        "date": "2024-09-30T00:00:00+00:00",
+        "value": 1904915,
+        "currency": "EUR",
+        "lowerBound": 1523932,
+        "upperBound": 2285899,
+        "source": "scisports",
+        "teamId": 8638,
+        "teamName": "Olympiacos"
+      },
+      {
+        "date": "2024-10-31T00:00:00+00:00",
+        "value": 1842034,
+        "currency": "EUR",
+        "lowerBound": 1473627,
+        "upperBound": 2210440,
+        "source": "scisports",
+        "teamId": 8638,
+        "teamName": "Olympiacos"
+      },
+      {
+        "date": "2024-11-30T00:00:00+00:00",
+        "value": 1842034,
+        "currency": "EUR",
+        "lowerBound": 1473627,
+        "upperBound": 2210440,
+        "source": "scisports",
+        "teamId": 8638,
+        "teamName": "Olympiacos"
+      },
+      {
+        "date": "2024-12-31T00:00:00+00:00",
+        "value": 1814144,
+        "currency": "EUR",
+        "lowerBound": 1451315,
+        "upperBound": 2176972,
+        "source": "scisports",
+        "teamId": 8638,
+        "teamName": "Olympiacos"
+      },
+      {
+        "date": "2025-01-30T00:00:00+00:00",
+        "value": 1771189,
+        "currency": "EUR",
+        "lowerBound": 1416951,
+        "upperBound": 2125426,
+        "source": "scisports",
+        "teamId": 8638,
+        "teamName": "Olympiacos"
+      },
+      {
+        "date": "2025-02-27T00:00:00+00:00",
+        "value": 1771189,
+        "currency": "EUR",
+        "lowerBound": 1416951,
+        "upperBound": 2125426,
+        "source": "scisports",
+        "teamId": 8638,
+        "teamName": "Olympiacos"
+      },
+      {
+        "date": "2025-03-30T00:00:00+00:00",
+        "value": 1771189,
+        "currency": "EUR",
+        "lowerBound": 1416951,
+        "upperBound": 2125426,
+        "source": "scisports",
+        "teamId": 8638,
+        "teamName": "Olympiacos"
+      },
+      {
+        "date": "2025-04-30T00:00:00+00:00",
+        "value": 1779800,
+        "currency": "EUR",
+        "lowerBound": 1423840,
+        "upperBound": 2135760,
+        "source": "scisports",
+        "teamId": 8638,
+        "teamName": "Olympiacos"
+      },
+      {
+        "date": "2025-05-31T00:00:00+00:00",
+        "value": 1772433,
+        "currency": "EUR",
+        "lowerBound": 1417946,
+        "upperBound": 2126920,
+        "source": "scisports",
+        "teamId": 8638,
+        "teamName": "Olympiacos"
+      },
+      {
+        "date": "2025-07-01T00:00:00+00:00",
+        "value": 1924353,
+        "currency": "EUR",
+        "lowerBound": 1539482,
+        "upperBound": 2309223,
+        "source": "scisports",
+        "teamId": 8638,
+        "teamName": "Olympiacos"
+      },
+      {
+        "date": "2025-08-01T00:00:00+00:00",
+        "value": 1924353,
+        "currency": "EUR",
+        "lowerBound": 1539482,
+        "upperBound": 2309223,
+        "source": "scisports",
+        "teamId": 8638,
+        "teamName": "Olympiacos"
+      },
+      {
+        "date": "2025-09-01T00:00:00+00:00",
+        "value": 1924353,
+        "currency": "EUR",
+        "lowerBound": 1539482,
+        "upperBound": 2309223,
+        "source": "scisports",
+        "teamId": 8638,
+        "teamName": "Olympiacos"
+      },
+      {
+        "date": "2025-10-01T00:00:00+00:00",
+        "value": 1924353,
+        "currency": "EUR",
+        "lowerBound": 1539482,
+        "upperBound": 2309223,
+        "source": "scisports",
+        "teamId": 8638,
+        "teamName": "Olympiacos"
+      },
+      {
+        "date": "2025-11-01T00:00:00+00:00",
+        "value": 1895488,
+        "currency": "EUR",
+        "lowerBound": 1516390,
+        "upperBound": 2274586,
+        "source": "scisports",
+        "teamId": 8638,
+        "teamName": "Olympiacos"
+      },
+      {
+        "date": "2025-12-01T00:00:00+00:00",
+        "value": 1895488,
+        "currency": "EUR",
+        "lowerBound": 1516390,
+        "upperBound": 2274586,
+        "source": "scisports",
+        "teamId": 8638,
+        "teamName": "Olympiacos"
+      },
+      {
+        "date": "2026-01-01T00:00:00+00:00",
+        "value": 1854376,
+        "currency": "EUR",
+        "lowerBound": 1483501,
+        "upperBound": 2225251,
+        "source": "scisports",
+        "teamId": 8638,
+        "teamName": "Olympiacos"
+      },
+      {
+        "date": "2026-02-01T00:00:00+00:00",
+        "value": 1854376,
+        "currency": "EUR",
+        "lowerBound": 1483501,
+        "upperBound": 2225251,
+        "source": "scisports",
+        "teamId": 9748,
+        "teamName": "Lyon",
+        "isPeriodStart": true
+      },
+      {
+        "date": "2026-03-01T00:00:00+00:00",
+        "value": 1853132,
+        "currency": "EUR",
+        "lowerBound": 1482505,
+        "upperBound": 2223758,
+        "source": "scisports",
+        "teamId": 9748,
+        "teamName": "Lyon"
+      },
+      {
+        "date": "2026-04-01T00:00:00+00:00",
+        "value": 1894527,
+        "currency": "EUR",
+        "lowerBound": 1515622,
+        "upperBound": 2273433,
+        "source": "scisports",
+        "teamId": 9748,
+        "teamName": "Lyon"
+      },
+      {
+        "date": "2026-05-01T00:00:00+00:00",
+        "value": 1865719,
+        "currency": "EUR",
+        "lowerBound": 1492575,
+        "upperBound": 2238863,
+        "source": "scisports",
+        "teamId": 9748,
+        "teamName": "Lyon"
+      },
+      {
+        "date": "2026-06-01T00:00:00+00:00",
+        "value": 1859759,
+        "currency": "EUR",
+        "lowerBound": 1487807,
+        "upperBound": 2231711,
+        "source": "scisports",
+        "teamId": 9748,
+        "teamName": "Lyon"
+      }
+    ]
+  },
+  "relatedLinksData": {
+    "teammates": [
+      {
+        "id": 1896949,
+        "name": "Kail Boudache"
+      },
+      {
+        "id": 651910,
+        "name": "Dominik Greif"
+      },
+      {
+        "id": 195750,
+        "name": "Nicolás Tagliafico"
+      },
+      {
+        "id": 765693,
+        "name": "Orel Mangala"
+      },
+      {
+        "id": 1057433,
+        "name": "Tanner Tessmann"
+      },
+      {
+        "id": 1135655,
+        "name": "Adam Karabec"
+      },
+      {
+        "id": 473852,
+        "name": "Corentin Tolisso"
+      },
+      {
+        "id": 1406729,
+        "name": "Endrick"
+      },
+      {
+        "id": 1037539,
+        "name": "Pavel Sulc"
+      },
+      {
+        "id": 1364069,
+        "name": "Malick Fofana"
+      },
+      {
+        "id": 1060604,
+        "name": "Abner"
+      },
+      {
+        "id": 1367047,
+        "name": "Afonso Moreira"
+      },
+      {
+        "id": 210120,
+        "name": "Rachid Ghezzal"
+      },
+      {
+        "id": 592102,
+        "name": "Moussa Niakhaté"
+      },
+      {
+        "id": 1125076,
+        "name": "Ruben Kluivert"
+      },
+      {
+        "id": 266105,
+        "name": "Clinton Mata"
+      },
+      {
+        "id": 1113724,
+        "name": "Tyler Morton"
+      },
+      {
+        "id": 485047,
+        "name": "Hans Hateboer"
+      },
+      {
+        "id": 1922172,
+        "name": "Steeve Kango"
+      },
+      {
+        "id": 1425698,
+        "name": "Achraf Laâziri"
+      },
+      {
+        "id": 1338390,
+        "name": "Ernest Nuamah"
+      },
+      {
+        "id": 1739906,
+        "name": "Mathys de Carvalho"
+      },
+      {
+        "id": 767014,
+        "name": "Rémy Descamps"
+      },
+      {
+        "id": 1793640,
+        "name": "Khalis Merah"
+      },
+      {
+        "id": 1793704,
+        "name": "Rémi Himbert"
+      },
+      {
+        "id": 1510394,
+        "name": "Lassine Diarra"
+      },
+      {
+        "id": 1853988,
+        "name": "Adil Hamdani"
+      },
+      {
+        "id": 1744188,
+        "name": "Noham Kamara"
+      },
+      {
+        "id": 604089,
+        "name": "Ainsley Maitland-Niles"
+      },
+      {
+        "id": 1368710,
+        "name": "Noah Nartey"
+      }
+    ],
+    "mensNationalTeam": [
+      {
+        "id": 800882,
+        "name": "Andriy Lunin"
+      },
+      {
+        "id": 1274553,
+        "name": "Georgiy Yermakov"
+      },
+      {
+        "id": 1270729,
+        "name": "Eduard Sarapiy"
+      },
+      {
+        "id": 1410340,
+        "name": "Taras Mykhavko"
+      },
+      {
+        "id": 890946,
+        "name": "Oleksandr Romanchuk"
+      },
+      {
+        "id": 1024427,
+        "name": "Valeriy Bondar"
+      },
+      {
+        "id": 1356601,
+        "name": "Volodymyr Brazhko"
+      },
+      {
+        "id": 132035,
+        "name": "Andriy Yarmolenko"
+      },
+      {
+        "id": 620553,
+        "name": "Oleksiy Hutsuliak"
+      },
+      {
+        "id": 459658,
+        "name": "Ruslan Malinovsky"
+      },
+      {
+        "id": 629559,
+        "name": "Mykola Shaparenko"
+      },
+      {
+        "id": 655696,
+        "name": "Artem Dovbyk"
+      },
+      {
+        "id": 1022350,
+        "name": "Anatoliy Trubin"
+      },
+      {
+        "id": 1140003,
+        "name": "Ilya Zabarnyi"
+      },
+      {
+        "id": 728941,
+        "name": "Yegor Nazaryna"
+      },
+      {
+        "id": 564847,
+        "name": "Viktor Tsigankov"
+      },
+      {
+        "id": 874025,
+        "name": "Vitaliy Mykolenko"
+      },
+      {
+        "id": 1192398,
+        "name": "Georgiy Sudakov"
+      },
+      {
+        "id": 1192419,
+        "name": "Oleg Ocheretko"
+      },
+      {
+        "id": 630472,
+        "name": "Danylo Ignatenko"
+      },
+      {
+        "id": 975983,
+        "name": "Oleksandr Nazarenko"
+      },
+      {
+        "id": 1577424,
+        "name": "Matviy Ponomarenko"
+      },
+      {
+        "id": 656667,
+        "name": "Mykola Matviyenko"
+      },
+      {
+        "id": 976428,
+        "name": "Dmytro Riznyk"
+      },
+      {
+        "id": 1100248,
+        "name": "Ruslan Neshcheret"
+      },
+      {
+        "id": 1116325,
+        "name": "Artem Bondarenko"
+      },
+      {
+        "id": 1424019,
+        "name": "Gennadiy Synchuk"
+      }
+    ],
+    "womensNationalTeam": []
+  },
+  "dataProvider": "enet"
+}

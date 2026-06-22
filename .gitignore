@@ -1,0 +1,9 @@
+node_modules/
+.next/
+.env
+.env*.local
+*.log
+.DS_Store
+.ingest-checkpoint.json
+fotmob-probe-result.json
+fotmob-nextdata.json

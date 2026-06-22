@@ -1,0 +1,34 @@
+{
+  "name": "football-llm",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "prisma:generate": "prisma generate",
+    "prisma:migrate": "prisma migrate dev",
+    "prisma:studio": "prisma studio",
+    "ingest": "tsx src/scripts/ingest.ts",
+    "analyze": "tsx src/scripts/analyze.ts",
+    "scout": "tsx src/scripts/scout.ts"
+  },
+  "dependencies": {
+    "@prisma/client": "^6.1.0",
+    "dotenv": "^16.4.7",
+    "framer-motion": "^11.15.0",
+    "next": "^16.2.6",
+    "react": "^19.2.0",
+    "react-dom": "^19.2.0",
+    "zod": "^3.24.1"
+  },
+  "devDependencies": {
+    "@types/node": "^22.10.2",
+    "@types/react": "^19.2.0",
+    "@types/react-dom": "^19.2.0",
+    "playwright": "^1.49.1",
+    "prisma": "^6.1.0",
+    "tsx": "^4.19.2",
+    "typescript": "^5.7.2"
+  }
+}
