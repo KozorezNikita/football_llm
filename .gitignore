@@ -8,3 +8,6 @@ node_modules/
 fotmob-probe-result.json
 fotmob-nextdata.json
 football_llm.dump
+debug-player.json
+debug-gk.json
+ENABLE-FONTS.md
