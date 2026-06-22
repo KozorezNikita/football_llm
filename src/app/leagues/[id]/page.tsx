@@ -8,6 +8,9 @@ import { PatternTheme } from "@/components/ui/PatternTheme";
 import { DelayedReveal } from "@/components/ui/DelayedReveal";
 import { Breadcrumbs } from "@/components/ui/Breadcrumbs";
 
+// читає БД на кожен запит — без статичного пререндеру на білді
+export const dynamic = "force-dynamic";
+
 export default async function LeaguePage({ params }: { params: Promise<{ id: string }> }) {
   const { id } = await params;
   const leagueId = Number(id);

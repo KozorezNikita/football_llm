@@ -193,7 +193,7 @@ export async function getPlayer(
       where: { playerId, seasonName },
       include: {
         player: { select: {
-          name: true, primaryPosition: true, photo: true,
+          name: true, primaryPosition: true, detailedPositions: true, photo: true,
           shirtNumber: true, age: true, country: true,
         } },
       },
@@ -298,7 +298,7 @@ export async function getLeagueTopPlayers(
   const toTop = (r: any, value: number): import("./types").LeagueTopPlayer => ({
     playerId: r.player.id,
     name: r.player.name,
-    photo: r.player.photo ?? FOTMOB_PLAYERPHOTO(r.player.id),
+    photo: r.player.photo ?? FOTMOB_PHOTO(r.player.id),
     teamId: r.team.id,
     teamName: r.team.name,
     teamLogo: r.team.logo ?? FOTMOB_TEAMLOGO(r.team.id),
@@ -365,7 +365,7 @@ export async function getLeagueBestXI(
       return {
         playerId: r.player.id,
         name: r.player.name,
-        photo: r.player.photo ?? FOTMOB_PLAYERPHOTO(r.player.id),
+        photo: r.player.photo ?? FOTMOB_PHOTO(r.player.id),
         teamId: r.team.id,
         teamLogo: r.team.logo ?? FOTMOB_TEAMLOGO(r.team.id),
         rating: Number((r.rating ?? 0).toFixed(2)),
@@ -408,7 +408,7 @@ export async function getLeaguePlayerPool(
       return {
         playerId: r.player.id,
         name: r.player.name,
-        photo: r.player.photo ?? FOTMOB_PLAYERPHOTO(r.player.id),
+        photo: r.player.photo ?? FOTMOB_PHOTO(r.player.id),
         teamId: r.team.id,
         teamLogo: r.team.logo ?? FOTMOB_TEAMLOGO(r.team.id),
         rating: Number((r.rating ?? 0).toFixed(2)),
@@ -445,7 +445,7 @@ export async function getTeamTopPlayers(
   // eslint-disable-next-line @typescript-eslint/no-explicit-any
   const toTop = (r: any, value: number): import("./types").LeagueTopPlayer => ({
     playerId: r.player.id, name: r.player.name,
-    photo: r.player.photo ?? FOTMOB_PLAYERPHOTO(r.player.id),
+    photo: r.player.photo ?? FOTMOB_PHOTO(r.player.id),
     teamId: r.team.id, teamName: r.team.name,
     teamLogo: r.team.logo ?? FOTMOB_TEAMLOGO(r.team.id), value,
   });
@@ -497,7 +497,7 @@ export async function getTeamBestXI(
     // eslint-disable-next-line @typescript-eslint/no-explicit-any
     .map((r: any) => ({
       playerId: r.player.id, name: r.player.name,
-      photo: r.player.photo ?? FOTMOB_PLAYERPHOTO(r.player.id),
+      photo: r.player.photo ?? FOTMOB_PHOTO(r.player.id),
       teamId: r.team.id, teamLogo: r.team.logo ?? FOTMOB_TEAMLOGO(r.team.id),
       rating: Number((r.rating ?? 0).toFixed(2)),
       role: positionToRole(r.player.primaryPosition),
@@ -534,7 +534,7 @@ export async function getTeamSquadPool(
     // eslint-disable-next-line @typescript-eslint/no-explicit-any
     .map((r: any) => ({
       playerId: r.player.id, name: r.player.name,
-      photo: r.player.photo ?? FOTMOB_PLAYERPHOTO(r.player.id),
+      photo: r.player.photo ?? FOTMOB_PHOTO(r.player.id),
       teamId: r.team.id, teamLogo: r.team.logo ?? FOTMOB_TEAMLOGO(r.team.id),
       rating: Number((r.rating ?? 0).toFixed(2)),
       role: positionToRole(r.player.primaryPosition),

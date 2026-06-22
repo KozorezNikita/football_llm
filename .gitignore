@@ -7,3 +7,4 @@ node_modules/
 .ingest-checkpoint.json
 fotmob-probe-result.json
 fotmob-nextdata.json
+football_llm.dump

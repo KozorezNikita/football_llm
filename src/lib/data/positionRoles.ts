@@ -57,7 +57,7 @@ export function positionsToRoles(detailedPositions: string | null, primaryPositi
   return [...roles];
 }
 
-
+export type Line = "GK" | "DEF" | "MID" | "ATT";
 
 export function roleLine(role: Role): Line {
   if (role === "GK") return "GK";

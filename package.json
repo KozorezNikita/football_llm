@@ -4,14 +4,15 @@
   "private": true,
   "scripts": {
     "dev": "next dev",
-    "build": "next build",
+    "build": "prisma generate && next build",
     "start": "next start",
     "prisma:generate": "prisma generate",
     "prisma:migrate": "prisma migrate dev",
     "prisma:studio": "prisma studio",
     "ingest": "tsx src/scripts/ingest.ts",
     "analyze": "tsx src/scripts/analyze.ts",
-    "scout": "tsx src/scripts/scout.ts"
+    "scout": "tsx src/scripts/scout.ts",
+    "postinstall": "prisma generate"
   },
   "dependencies": {
     "@prisma/client": "^6.1.0",

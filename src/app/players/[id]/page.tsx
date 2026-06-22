@@ -7,6 +7,9 @@ import { PatternTheme } from "@/components/ui/PatternTheme";
 import { ClubThemeProvider } from "@/components/team/ClubThemeProvider";
 import { PlayerCard } from "@/components/player/PlayerCard";
 
+// читає БД на кожен запит — без статичного пререндеру на білді
+export const dynamic = "force-dynamic";
+
 export default async function PlayerPage({
   params, searchParams,
 }: {

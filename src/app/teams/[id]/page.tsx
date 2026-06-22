@@ -12,6 +12,9 @@ import { SquadNeeds } from "@/components/team/SquadNeeds";
 import { LeagueBestXI } from "@/components/league/LeagueBestXI";
 import { LeagueTopPlayers } from "@/components/league/LeagueTopPlayers";
 
+// читає БД на кожен запит — без статичного пререндеру на білді
+export const dynamic = "force-dynamic";
+
 export default async function TeamPage({ params }: { params: Promise<{ id: string }> }) {
   const { id } = await params;
   const teamId = Number(id);
@@ -64,7 +67,7 @@ export default async function TeamPage({ params }: { params: Promise<{ id: strin
             alignSelf: "stretch", minWidth: 160,
           }}>
             {/* eslint-disable-next-line @next/next/no-img-element */}
-            <img src={team.logo} alt={team.name}
+            <img src={team.logo ?? undefined} alt={team.name}
               style={{ width: "62%", height: "62%", objectFit: "contain", viewTransitionName: `team-logo-${teamId}` }} />
           </div>
 
