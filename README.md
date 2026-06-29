@@ -3,6 +3,9 @@
 > Football analytics platform with AI-assisted squad scouting — built on real match data, per-90 percentile modelling, and a hybrid math-plus-LLM reporting engine.
 
 **Live demo:** [football-llm.vercel.app](https://football-llm.vercel.app/)
+Demo (without registration)
+Акаунт 1 / Account 1: nikita@gmail.com / nikita123456
+Акаунт 2 / Account 2: dima@gmail.com / dima1234
 
 > 🇬🇧 English below · 🇺🇦 Українська нижче
 
