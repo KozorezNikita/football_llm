@@ -4,10 +4,6 @@
 
 **Live demo:** [football-llm.vercel.app](https://football-llm.vercel.app/)
 
-Demo (without registration)
-Акаунт 1 / Account 1: nikita@gmail.com / nikita123456
-Акаунт 2 / Account 2: dima@gmail.com / dima1234
-
 > 🇬🇧 English below · 🇺🇦 Українська нижче
 
 <!-- TODO: додай 2-3 скріншоти. Рекомендую:
